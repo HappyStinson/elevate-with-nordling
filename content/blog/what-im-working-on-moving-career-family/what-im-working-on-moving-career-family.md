@@ -20,6 +20,8 @@ I've taken a big step towards independence by moving into a shared apartment in 
 - **Turning on the lights:** This new apartment uses a DCL connector for the ceiling lamps. I went to IKEA to get them and replaced the connector. Also, the floor lamp was damaged in the move, and I dropped the bulb, which exploded. It took me a while to clean up all the pieces and replace it, but now I have some working lights.
 - **First solo grocery shopping:** It’s been a while since I shopped for myself, and it was a bit confusing navigating the new store. I had some issues at checkout but managed to get home with the groceries and say hi to my flatmate Bruno, who was cooking in the kitchen.
 
+A huge thank you to my family for their incredible help during the move. Their support made the process much smoother and less stressful, and I couldn’t have done it without them.
+
 This new place is similar to past shared housing experiences, but it feels like a fresh start with its own unique vibe and location.
 
 ### Preparing for Spain
