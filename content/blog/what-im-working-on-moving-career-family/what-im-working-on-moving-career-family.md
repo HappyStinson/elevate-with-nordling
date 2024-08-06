@@ -28,7 +28,7 @@ This new place is similar to past shared housing experiences, but it feels like 
 
 I'm gearing up for a trip to Spain next month, which means sorting out some logistical details, like obtaining an EU health insurance card (Mathias is keen on visiting Gibraltar). After talking to the authorities, I realized that I probably won't get the card in time for our trip, but at least I endured the long phone queue to complete an important task. They told me I shouldn't worry about getting injured.
 
-## My Personal Website
+### My Personal Website
 
 I've once again reevaluated the technical options for reviving my website and blog (another 24 for 24 item). I'm done overthinking and second-guessing this project. The primary goal is to streamline my writing process, allowing me to post my thoughts quickly without getting caught up in the technicalities. For now, I'm sticking with a simple, default layout to avoid falling into the rabbit hole of endless customization.
 
