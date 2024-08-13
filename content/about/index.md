@@ -16,6 +16,8 @@ I’m passionate about self-care through meditation, exploring new places, and c
 
 This site is a space for me to share my journey and insights on achieving goals and personal growth. I started this blog to stay accountable, inspire others, and motivate you to take steps toward your own dreams.
 
+Starting in 2024 I'm now writing on a new website adress *nordling.xyz* and updating my old posts as I move them to this new platform. In the mean time you're more than welcome to poke around my unmaintained [blog archive](https://rasmus-nordling.netlify.app/).
+
 ## Tech and Tools
 
 - **Site Generator**: [Eleventy](https://www.11ty.dev/)
