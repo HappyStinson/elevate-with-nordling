@@ -2,16 +2,17 @@
 title: "What I’m Working On: Finding Balance Between Coding, Music, and Life"
 description: "Join me as I balance coding, music, and life while reflecting on personal growth, work challenges, and new experiences. Discover how my week unfolded with programming goals, workout struggles, and creative pursuits."
 date: 2024-08-13
-tags: 
-  - Personal Development
+tags:
   - Coding Journey
-  - Music and Songwriting
-  - Python Programming
+  - Creative Projects
+  - Digital Tools
   - Fitness Challenges
   - Life Reflections
+  - Music and Songwriting
+  - Personal
+  - Personal Development
   - Productivity Tips
-  - Digital Tools
-  - Creative Projects
+  - Python
   - Work-Life Balance
 ---
 ## Introduction

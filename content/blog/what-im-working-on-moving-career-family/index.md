@@ -2,7 +2,12 @@
 title: "What I’m Working On: Moving, Career Shifts, and Family Celebrations"
 description: "A personal update on my recent move, career exploration, and family events. Discover how I'm adjusting to new changes and what I've been learning along the way."
 date: 2024-08-04
-tags: [personal, professional, blog, Python, family]
+tags:
+  - Blog
+  - Family
+  - Personal
+  - Professional
+  - Python
 ---
 ## Introduction
 
