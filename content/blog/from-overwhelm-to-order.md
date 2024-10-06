@@ -40,7 +40,7 @@ These routines may not always be fun or comfortable, but they help me save brain
 
 - **Dumbbell workouts** with Chris and Edi (no gym decision required)
 - **Cold shower** after every workout (boosts energy, reduces inflammation)
-- **Take the stairs** whenever possible—no more elevator/elevator debates
+- **Take the stairs** whenever possible—no more elevator/escalator debates
 - **Sleep schedule**: Consistent 10pm–6am, seven days a week
 - **Bedroom temperature**: Keep the room at 18°C during the night for better sleep quality
 - **Supplements**: Magnesium and Zinc once a day
