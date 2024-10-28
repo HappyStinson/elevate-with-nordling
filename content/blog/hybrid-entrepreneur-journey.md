@@ -1,6 +1,6 @@
 ---
-title: "I'm 34 and Lost: Finding Direction for a Fulfilling Career"
-description: "A personal journey from stability in tech to a search for purpose, freedom, and fulfillment. Here's how I'm planning my next big career move."
+title: "From Employee to Hybrid Entrepreneur: Finding Purpose and Freedom in My Career Journey"
+description: "A journey from stability in tech to an exploration of hybrid entrepreneurship, freedom, and financial independence. Here’s how I’m transitioning from employee to business owner."
 date: 2024-10-27
 tags:
   - Career Reflections
@@ -25,9 +25,11 @@ Beneath the surface, however, things have evolved. Just before turning 29, I qui
 
 In Australia, I had an incredible experience, making friends like Cam and Mandy and finding community support at Raymont, which was invaluable during the pandemic.
 
-When I decided to study music, I was fully committed—no plan B. Coding was off the table, and I stepped away from tech completely. During trimester breaks, however, I began exploring ways to generate income beyond music. I read about side hustles, attended property meetups, and realized there were other avenues I wanted to explore. Then, during my “Entrepreneurship in Music” course, we dug into the essentials of starting a business. I learned how to make a business model canvas, write a mission and vision statement, and handle basic finances—all skills that are proving valuable now. Inspired, I even rebranded my YouTube channel from “Ras World of Music and Lyrics” to “Bangers ‘n’ Biz,” reflecting a growing interest in the intersection of music and business.
+When I decided to study music, I was fully committed—no plan B. Coding was off the table, and I stepped away from tech completely. During trimester breaks, however, I began exploring ways to generate income beyond music. I read about side hustles, attended property meetups, and realized there were other avenues I wanted to explore. Then, during my “Entrepreneurship in Music” course, we dug into the essentials of starting a business. I learned how to make a business model canvas, write a mission and vision statement, and handle basic finances—all skills that are proving valuable now. Inspired, I even rebranded my YouTube channel from “Ras World of Music and Lyrics” to “[Bangers ‘n’ Biz](https://www.youtube.com/@BangersNBiz),” reflecting a growing interest in the intersection of music and business.
 
 As part of this exploration, I also started attending crypto meetups in Brisbane, where I developed an interest in Ethereum and music NFTs ([playlist](https://open.spotify.com/playlist/1yfodJjiskntg9vciGC2p9?si=e6RDzm8fQSWbL5fQjysodg)). I couldn’t stay away from coding for long, it seems, since I even took part in a few hackathons focused on Web3. This experience opened me up to the exciting possibilities of blockchain technology in creative industries.
+
+In 2021, I also enrolled in the *Rich Dad Choose to BE **RICH** System* by Robert Kiyosaki. This course exposed me to various wealth-building vehicles, including real estate, business ownership, and paper assets. Due to compliance regulations at my finance job, a stock portfolio isn’t an option for me. This has led me to focus more intently on real estate and business ownership as paths toward financial independence.
 
 Leaving a high-paying tech job to become a musician may seem impulsive to some, but I view it as a leap of faith. And honestly, it’s one of the best decisions I’ve made.
 
@@ -47,7 +49,7 @@ There are plenty of certifications that could make me more marketable, but is it
 
 So I stepped back, pulled myself out of that rabbit hole, and talked to Cam, a friend with firsthand experience in running a business.
 
-## The Solution
+## The Solution: Becoming a Hybrid Entrepreneur
 
 Reflecting on my experience working for others, I’m seeing that maybe I’m meant to be on a different path—one that leads toward entrepreneurship.
 
@@ -56,6 +58,8 @@ It’s becoming clearer: make a plan and commit to it.
 I know what I value:
 - **Freedom**
 - **Transparency**
+- **Sustainability** - Making choices that don’t waste resources, finding the 80/20 approach, and reducing environmental impact.
+- **Loyalty** - Building meaningful relationships with clients and collaborators that last.
 
 I’ve always admired digital nomads for their autonomy—the freedom to travel, work, and immerse in different cultures. And when it comes to transparency, it’s about being honest and open, sharing the good and bad parts of life, whether on a blog or YouTube. This openness builds trust, keeps me accountable, and is something I aim to incorporate into my work.
 
@@ -63,30 +67,23 @@ I envision building a business focused on solving complex business challenges ef
 
 But there’s more to consider than just income. How do I want to spend my time? Do I want to immerse myself in tech, run a business, or manage properties? My decision should align with my values. And because I currently work in finance, trading stocks is restricted for compliance reasons. So to put my money to work, I’ll likely need to look into buying property or starting a business.
 
-Some career paths I’m weighing include:
-- **Songwriting**
-- **Web3 and Blockchain**
-- **Freelancing in Tech**
+I've recently looked into businesses for sale, to assess the viability of buying an existing company. I may start with freelancing or hobby-based business activities and eventually scale up to a registered business once I’ve built enough experience.  
 
-The goal is to pick one path and go for it. If it doesn’t feel right, I’ll come back to this list and reassess.
+### Embracing Hybrid Entrepreneurship
 
-Earlier this year, I considered starting a freelancing business offering IT, music, video, and photo services. I see demand in many fields—DevOps, cloud engineering, video editing—but that doesn’t mean I need to do it all myself.
+The concept of **Hybrid Entrepreneurship** (also called “halfpreneurship”) is about leveraging my current job while building a business on the side. This dual path allows me to develop business skills that can benefit my job and, in turn, prepare me for self-employment.
 
-I don’t need to “make it” alone—I can “make it happen” by collaborating with others. Imagine being the person known as “The Guy Who Solves the DevOps Problem” or “The Expert in Cloud Migration.”
+Hybrid entrepreneurship also allows me to build my skills as an intrapreneur, positioning myself as a leader in my current role by taking on extra responsibilities and asking to participate in more strategic decisions. My aim is to balance the stability of my job with the experience of building something part-time, making sure each informs and strengthens the other.
 
-My goal is to acquire the skills needed to manage a business, then assemble a team for each project. Instead of generating value for employers and clients, I’d keep that value within my business.
+### Next Steps Toward Hybrid Entrepreneurship
 
-Sure, running a business comes with more risk and will involve a lot of hard work—but it also offers more freedom. I’ll need to see if I’m even allowed to run a business alongside my current employment.
+To set myself up for a future in hybrid entrepreneurship, here’s how I plan to begin:
 
-Deep down, I know I don’t want to be an employee until retirement. I can’t see myself staying at the same company for 20 years.
+1. **Start Small**: Begin with freelancing or a hobby business to gain experience.
+2. **Establish Transparency**: Have open conversations with my manager about my business aspirations, including discussing potential contributions to HiQ’s strategy beyond coding.
+3. **Clarify Rules**: Review employment policies, including non-compete clauses, to understand what’s possible within my current role.
+4. **Build Skills and Connections**: Read up on sales, find a business mentor in Stockholm, and explore roadmaps for becoming a business owner or developer.
 
-## Next Steps
-
-Here’s what I plan to tackle next:
-
-1. Talk with my manager about contributing more to HiQ’s business strategy beyond coding—explore growth opportunities.
-2. Read a book on sales.
-3. Find a business mentor in Stockholm.
-4. Look into a roadmap for becoming a business owner or developer.
+Deep down, I know I don’t want to stay on the employee path indefinitely. This plan keeps me grounded in my current role while letting me explore entrepreneurship at a sustainable pace.
 
 **Thank You** to Cameron Seale for inspiring this post.
