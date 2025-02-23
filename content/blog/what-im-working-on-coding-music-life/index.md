@@ -14,6 +14,8 @@ tags:
   - Productivity Tips
   - Python
   - Work-Life Balance
+  - Longevity
+  - Nordling.xyz
 ---
 ## Introduction
 
