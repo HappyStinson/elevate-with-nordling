@@ -11,6 +11,7 @@ tags:
   - Decision Fatigue
   - Mindfulness
   - Time Management
+  - Nordling.xyz
 ---
 Every day, I face a mountain of decisions that leave me mentally exhausted before noon. It’s not the big, life-changing choices that weigh me down, but the endless barrage of small, routine ones. Should I go to the gym now or later? What should I eat for dinner? With so many options, even simple tasks start to feel overwhelming.
 

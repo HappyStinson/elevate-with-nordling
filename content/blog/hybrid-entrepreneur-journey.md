@@ -7,6 +7,7 @@ tags:
   - Personal Development
   - Entrepreneurship
   - Decision Fatigue
+  - Nordling.xyz
 ---
 
 I previously talked about decision fatigue and systemizing routine decisions. Since that post resonated with many of you, today I want to share my recent thoughts on feeling stuck when it comes to the bigger decisions that shape our future.

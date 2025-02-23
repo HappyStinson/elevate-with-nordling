@@ -4,6 +4,8 @@ description: "Celebrating wins and embracing progress."
 date: 2025-01-11
 tags:
   - Personal Development
+  - Longevity
+  - Nordling.xyz
 ---
 
 ## Preface

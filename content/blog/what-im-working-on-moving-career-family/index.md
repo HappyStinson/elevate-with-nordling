@@ -8,6 +8,7 @@ tags:
   - Personal
   - Professional
   - Python
+  - Nordling.xyz
 ---
 ## Introduction
 
