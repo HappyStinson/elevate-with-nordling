@@ -49,4 +49,4 @@ My one-word theme is "Communication.”
 
 ## What I'm Currently Reading
 
-- *Stress Less, Accomplish More: Meditation for Extraordinary Performance* by Emelie Fletcher ([Goodreads](https://www.goodreads.com/book/show/40132885-stress-less-accomplish-more "View book details")).
+- *Stress Less, Accomplish More: Meditation for Extraordinary Performance* by Emily Fletcher ([Goodreads](https://www.goodreads.com/book/show/40132885-stress-less-accomplish-more "View book details")).
