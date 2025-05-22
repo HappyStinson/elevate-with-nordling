@@ -35,7 +35,6 @@
 	}
 }
 
-
 /* Global stylesheet */
 * {
 	box-sizing: border-box;
@@ -83,13 +82,14 @@ img[src$=".svg"] {
   height: auto;
   max-width: none;
 }
-video,
-iframe {
-	width: 100%;
-	height: auto;
-}
-iframe {
-	aspect-ratio: 16/9;
+
+.instagram-media{margin:15px auto !important;}
+
+.eleventy-plugin-embed-spotify,
+.eleventy-plugin-youtube-embed {
+    width: 100%; /* or a specific width like 80% */
+    max-width: 600px; /* Set a max-width for better control */
+    margin: 10px auto; /* Center the element with auto margins */
 }
 
 p:last-child {

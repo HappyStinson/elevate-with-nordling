@@ -20,7 +20,7 @@ This week has been filled with new beginnings, both personally and professionall
 
 ### Moving to a New Place
 
-I've taken a big step towards independence by moving into a shared apartment in Södermalm, similar to accommodations I've lived in before. It's been an exciting process, albeit a bit overwhelming at times. It's been on my [24 for 24 list](/24-for-24/) since January, and this week, I tackled some essential household tasks:
+I've taken a big step towards independence by moving into a shared apartment in Södermalm, similar to accommodations I've lived in before. It's been an exciting process, albeit a bit overwhelming at times. It's been on my [24 for 24 list](/blog/happier-trifecta-2024/) since January, and this week, I tackled some essential household tasks:
 
 - **Installing a temporary curtain:** I had to buy a curtain rod that fit my window and struggled to find wide enough blackout curtains. For now, I've found a temporary solution that is good enough and keeps most of the light out.
 - **Turning on the lights:** This new apartment uses a DCL connector for the ceiling lamps. I went to IKEA to get them and replaced the connector. Also, the floor lamp was damaged in the move, and I dropped the bulb, which exploded. It took me a while to clean up all the pieces and replace it, but now I have some working lights.

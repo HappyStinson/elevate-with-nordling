@@ -6,6 +6,13 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
 
+import embedYouTube  from "eleventy-plugin-youtube-embed";
+import embedInstagram from "eleventy-plugin-embed-instagram";
+import embedSpotify from "eleventy-plugin-embed-spotify";
+import emoji from "eleventy-plugin-emoji";
+import readerBar from "eleventy-plugin-reader-bar";
+import timeToRead from "eleventy-plugin-time-to-read";
+
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 	// Drafts, see also _data/eleventyDataSchema.js
@@ -93,6 +100,20 @@ export default async function(eleventyConfig) {
 		},
 	});
 
+	eleventyConfig.addPlugin(embedYouTube, {
+		lite: true,
+			titleOptions: {
+				download: true
+			}
+	});
+
+	eleventyConfig.addPlugin(embedInstagram);
+	eleventyConfig.addPlugin(embedSpotify);
+
+	eleventyConfig.addPlugin(emoji);
+	eleventyConfig.addPlugin(readerBar);
+	eleventyConfig.addPlugin(timeToRead);
+
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
 
@@ -100,7 +121,7 @@ export default async function(eleventyConfig) {
 		// by default we use Eleventy’s built-in `slugify` filter:
 		// slugify: eleventyConfig.getFilter("slugify"),
 		// selector: "h1,h2,h3,h4,h5,h6", // default
-	});
+  });
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();

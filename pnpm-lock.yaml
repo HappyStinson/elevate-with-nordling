@@ -11,6 +11,24 @@ importers:
       '@zachleat/heading-anchors':
         specifier: ^1.0.1
         version: 1.0.3
+      eleventy-plugin-embed-instagram:
+        specifier: ^1.3.0
+        version: 1.3.0
+      eleventy-plugin-embed-spotify:
+        specifier: ^1.3.0
+        version: 1.3.0
+      eleventy-plugin-emoji:
+        specifier: ^1.1.0
+        version: 1.1.0
+      eleventy-plugin-reader-bar:
+        specifier: ^0.2.1
+        version: 0.2.1(@11ty/eleventy@3.0.0)
+      eleventy-plugin-time-to-read:
+        specifier: ^1.3.0
+        version: 1.3.0(@11ty/eleventy@3.0.0)
+      eleventy-plugin-youtube-embed:
+        specifier: ^1.13.0
+        version: 1.13.0
     devDependencies:
       '@11ty/eleventy':
         specifier: ^3.0.0
@@ -401,6 +419,10 @@ packages:
       supports-color:
         optional: true
 
+  deepmerge@4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
+    engines: {node: '>=0.10.0'}
+
   depd@2.0.0:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
     engines: {node: '>= 0.8'}
@@ -438,6 +460,32 @@ packages:
 
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
+
+  eleventy-plugin-embed-instagram@1.3.0:
+    resolution: {integrity: sha512-uF63snWEViwLQzr85ZAbKRXlWcLdPwepxuy7gERQVPzTNYWiPU1ruyf8H40qmznWPo7kWHa9Nnb5p4tM2Ilcjg==}
+
+  eleventy-plugin-embed-spotify@1.3.0:
+    resolution: {integrity: sha512-waVUtW5PO9aKYQEjnvHG4P5bPyKj+SSUBuDtqfF2K+j7dGItmEDD4DP7CmBz6lkn/LlJGmJ7uT4Mr6L4jAP4bg==}
+
+  eleventy-plugin-emoji@1.1.0:
+    resolution: {integrity: sha512-BkTVNCLPoUned0PH+fBEkm8aF4PGXWCXwbGIEW5+/4d8ceTTuWQELIN6h1laJZZ3PjblZdgmbLmcPsh6u69eug==}
+
+  eleventy-plugin-reader-bar@0.2.1:
+    resolution: {integrity: sha512-yXMZ28dBpJtxveO30e8dVgcv560hlOT9lv1TpuDRXDo/AksmFgjdhAalR8HADMIo4P8hmJzDYjc9kSg4KWKRqA==}
+    peerDependencies:
+      '@11ty/eleventy': '>=0.10'
+
+  eleventy-plugin-time-to-read@1.3.0:
+    resolution: {integrity: sha512-EefxYZJviQbClwoQ+pXW0YsVoi3gzXJ3prJoOLO1g3n5dM17KyZh81/yyq5Inrdc2pxBz3CXsyo21kk43gK/Gg==}
+    engines: {node: '>=13.0.0'}
+    peerDependencies:
+      '@11ty/eleventy': '*'
+    peerDependenciesMeta:
+      '@11ty/eleventy':
+        optional: true
+
+  eleventy-plugin-youtube-embed@1.13.0:
+    resolution: {integrity: sha512-1SECPkFEM6+NHldEKyS6vXFBAmJpOqmPokWUyICx6ZIAHW2ADfAe9L2t3F9huR0Uce2Sg7yO2ksxsLRejIhhgw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -662,6 +710,9 @@ packages:
 
   list-to-array@1.1.0:
     resolution: {integrity: sha512-+dAZZ2mM+/m+vY9ezfoueVvrgnHIGi5FvgSymbIgJOFwiznWyA59mav95L+Mc6xPtL3s9gm5eNTlNtxJLbNM1g==}
+
+  lite-youtube-embed@0.3.3:
+    resolution: {integrity: sha512-gFfVVnj6NRjxVfJKo3qoLtpi0v5mn3AcR4eKD45wrxQuxzveFJUb+7Cr6uV6n+DjO8X3p0UzPPquhGt0H/y+NA==}
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
@@ -908,6 +959,10 @@ packages:
   statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
+
+  string-replace-async@3.0.2:
+    resolution: {integrity: sha512-s6hDtXJ7FKyRap/amefqrOMpkEQvxUDueyvJygQeHxCK5Za90dOMgdibCCrPdfdAYAkr8imrZ1PPXW7DOf0RzQ==}
+    engines: {node: '>= 14.0.0'}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -1398,6 +1453,8 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
+  deepmerge@4.3.1: {}
+
   depd@2.0.0: {}
 
   dependency-graph@0.11.0: {}
@@ -1429,6 +1486,29 @@ snapshots:
   eastasianwidth@0.2.0: {}
 
   ee-first@1.1.1: {}
+
+  eleventy-plugin-embed-instagram@1.3.0: {}
+
+  eleventy-plugin-embed-spotify@1.3.0: {}
+
+  eleventy-plugin-emoji@1.1.0: {}
+
+  eleventy-plugin-reader-bar@0.2.1(@11ty/eleventy@3.0.0):
+    dependencies:
+      '@11ty/eleventy': 3.0.0
+
+  eleventy-plugin-time-to-read@1.3.0(@11ty/eleventy@3.0.0):
+    optionalDependencies:
+      '@11ty/eleventy': 3.0.0
+
+  eleventy-plugin-youtube-embed@1.13.0:
+    dependencies:
+      '@11ty/eleventy-fetch': 5.0.2
+      deepmerge: 4.3.1
+      lite-youtube-embed: 0.3.3
+      string-replace-async: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
 
   emoji-regex@8.0.0: {}
 
@@ -1634,6 +1714,8 @@ snapshots:
       commander: 10.0.1
 
   list-to-array@1.1.0: {}
+
+  lite-youtube-embed@0.3.3: {}
 
   lru-cache@10.4.3: {}
 
@@ -1871,6 +1953,8 @@ snapshots:
       minipass: 7.1.2
 
   statuses@2.0.1: {}
+
+  string-replace-async@3.0.2: {}
 
   string-width@4.2.3:
     dependencies:
