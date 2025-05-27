@@ -1,13 +1,14 @@
-import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
+import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin, RenderPlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginWebc from "@11ty/eleventy-plugin-webc";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
 
 import embedYouTube  from "eleventy-plugin-youtube-embed";
-import embedInstagram from "eleventy-plugin-embed-instagram";
+import embedInstagram from "eleventy-plugin-embed-instagram"; // replace with webc custom component :)
 import embedSpotify from "eleventy-plugin-embed-spotify";
 import emoji from "eleventy-plugin-emoji";
 import readerBar from "eleventy-plugin-reader-bar";
@@ -50,9 +51,14 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		preAttributes: { tabindex: 0 }
 	});
+	eleventyConfig.addPlugin(pluginWebc, {
+		components: "_includes/components/**/*.webc",
+	});
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
+	eleventyConfig.addPlugin(RenderPlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+
 
 	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom", // or "rss", "json"
@@ -101,13 +107,15 @@ export default async function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(embedYouTube, {
+		lazy: true,
 		lite: true,
+			css: { inline: true },
 			titleOptions: {
 				download: true
 			}
 	});
 
-	eleventyConfig.addPlugin(embedInstagram);
+	// eleventyConfig.addPlugin(embedInstagram);
 	eleventyConfig.addPlugin(embedSpotify);
 
 	eleventyConfig.addPlugin(emoji);
