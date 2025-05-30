@@ -11,6 +11,7 @@ Inspired by [Robb Knight](https://rknight.me/log/).
 - Added project changelog to `/changelog`
 - Added a human readable sitemap to `/sitemap`
 - Upgraded Eleventy to [v3.1](https://www.11ty.dev/blog/eleventy-v3-1/)
+- Bumped Node to LTS version 24
 
 ### 2025-05-22
 
