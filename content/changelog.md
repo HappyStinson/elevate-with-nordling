@@ -1,9 +1,15 @@
 # Changelog
 
+Why bother with a changelog? I found several good reasons that aligns with my values and here are a few of them.
+1.  It gives my audience an insider’s look into how the platform or brand is **evolving**.
+2.  A public changelog aligns with values of **transparency** and sharing. Inviting people to see behind the curtain builds **trust**.
+
+Inspired by [Robb Knight](https://rknight.me/log/).
+
 ## 2025-05-30
 
-- Added a /changelog page
-- Added a /sitemap page
+- Added project changelog to `/changelog`
+- Added a human readable sitemap to `/sitemap`
 
 ### 2025-05-22
 
@@ -19,7 +25,7 @@
 
 ### 2025-04-13
 
-- Upgraded Eleventy from v2 to v3.0
+- Upgraded Eleventy from v2 to [v3.0](https://www.11ty.dev/blog/eleventy-v3/)
 
 ### 2025-02-23
 
@@ -27,11 +33,12 @@
 - Added layout for showing related posts
 - Added label "Nordling.xyz" to posts of this generation
 - Added label "Longevity" to reflect my theme for 2025
-- Changed page "24 for 24" into a blog post
-- Changed URL for "24 for 24" post to /blog/happier-trifecta-2024
-- Set up 301 redirect for old URL to new URL
-- Updated navigation to show the latest Happier Trifecta
-- Reordered items and updated names in the navigation menu
+- Changed page "24 for 24"
+  - Into a blog post
+  - URL to `/blog/happier-trifecta-2024` and 301 redirect
+- Updated navigation menu
+  - To show the latest Happier Trifecta
+  - Reordered items and updated names
 
 ### 2025-01-11
 
@@ -47,7 +54,7 @@
 
 ### 2024-02-26
 
-- Completed Jekyll and Blogger migration
+- Imported old posts from Jekyll and Blogger
 
 ### 2024-02-18
 
