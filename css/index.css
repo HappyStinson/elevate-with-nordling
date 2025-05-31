@@ -35,6 +35,7 @@
 	}
 }
 
+
 /* Global stylesheet */
 * {
 	box-sizing: border-box;
@@ -60,7 +61,7 @@ body {
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	height: 1px;
@@ -82,14 +83,13 @@ img[src$=".svg"] {
   height: auto;
   max-width: none;
 }
-
-.instagram-media{margin:15px auto !important;}
-
-.eleventy-plugin-embed-spotify,
-.eleventy-plugin-youtube-embed {
-    width: 100%; /* or a specific width like 80% */
-    max-width: 600px; /* Set a max-width for better control */
-    margin: 10px auto; /* Center the element with auto margins */
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
 }
 
 p:last-child {
@@ -124,6 +124,24 @@ main :first-child {
 
 header {
 	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
 }
 
 .links-nextprev {
@@ -211,6 +229,7 @@ header {
 
 /* Posts list */
 .postlist {
+	counter-reset: start-from var(--postlist-index);
 	list-style: none;
 	padding: 0;
 	padding-left: 1.5rem;
@@ -275,6 +294,16 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+/* Media embed */
+.instagram-media{margin:15px auto !important;}
+
+.eleventy-plugin-embed-spotify,
+.eleventy-plugin-youtube-embed {
+    width: 100%; /* or a specific width like 80% */
+    max-width: 600px; /* Set a max-width for better control */
+    margin: 10px auto; /* Center the element with auto margins */
 }
 
 /* Related posts */
