@@ -35,6 +35,7 @@
 	}
 }
 
+
 /* Global stylesheet */
 * {
 	box-sizing: border-box;
@@ -60,7 +61,7 @@ body {
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	height: 1px;
@@ -81,15 +82,6 @@ img[src$=".svg"] {
   width: 100%;
   height: auto;
   max-width: none;
-}
-
-.instagram-media{margin:15px auto !important;}
-
-.eleventy-plugin-embed-spotify,
-.eleventy-plugin-youtube-embed {
-    width: 100%; /* or a specific width like 80% */
-    max-width: 600px; /* Set a max-width for better control */
-    margin: 10px auto; /* Center the element with auto margins */
 }
 
 p:last-child {
@@ -126,51 +118,26 @@ header {
 	border-bottom: 1px dashed var(--color-gray-20);
 }
 
-.links-nextprev {
-	display: flex;
-	justify-content: space-between;
-	gap: .5em 1em;
-	list-style: "";
-	border-top: 1px dashed var(--color-gray-20);
-	padding: 1em 0;
-}
-.links-nextprev > * {
-	flex-grow: 1;
-}
-.links-nextprev-next {
-	text-align: right;
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
 }
 
-table {
-	margin: 1em 0;
-}
-table td,
-table th {
-	padding-right: 1em;
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
 }
 
-pre,
 code {
 	font-family: var(--font-family-monospace);
-}
-pre:not([class*="language-"]) {
-	margin: .5em 0;
-	line-height: 1.375; /* 22px /16 */
-	-moz-tab-size: var(--syntax-tab-size);
-	-o-tab-size: var(--syntax-tab-size);
-	tab-size: var(--syntax-tab-size);
-	-webkit-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	overflow-x: auto;
-}
-code {
-	word-break: break-all;
 }
 
 /* Header */
@@ -207,93 +174,4 @@ header {
 }
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
-}
-
-/* Posts list */
-.postlist {
-	list-style: none;
-	padding: 0;
-	padding-left: 1.5rem;
-}
-.postlist-item {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	counter-increment: start-from -1;
-	margin-bottom: 1em;
-}
-.postlist-item:before {
-	display: inline-block;
-	pointer-events: none;
-	content: "" counter(start-from, decimal-leading-zero) ". ";
-	line-height: 100%;
-	text-align: right;
-	margin-left: -1.5rem;
-}
-.postlist-date,
-.postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
-}
-.postlist-date {
-	word-spacing: -0.5px;
-}
-.postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
-	font-weight: 700;
-	flex-basis: calc(100% - 1.5rem);
-	padding-left: .25em;
-	padding-right: .5em;
-	text-underline-position: from-font;
-	text-underline-offset: 0;
-	text-decoration-thickness: 1px;
-}
-.postlist-item-active .postlist-link {
-	font-weight: bold;
-}
-
-/* Tags */
-.post-tag {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	text-transform: capitalize;
-	font-style: italic;
-}
-.postlist-item > .post-tag {
-	align-self: center;
-}
-
-/* Tags list */
-.post-metadata {
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: .5em;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.post-metadata time {
-	margin-right: 1em;
-}
-
-/* Related posts */
-.related-posts {
-    background-color: var(--color-gray-20);
-    padding: 20px;
-}
-
-.related-posts h2 {
-	color: black;
-}
-
-/* Links in related posts */
-.related-posts a {
-    color: #0056b3; /* Dark blue for links */
-	padding-bottom: 2px;
-}
-
-.related-posts a:hover,
-.related-posts a:active {
-    color: black;
 }

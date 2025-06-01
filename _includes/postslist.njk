@@ -1,4 +1,6 @@
-{%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
+<style>{% include "css/postlist.css" %}</style>
+
+{# <ol reversed class="postlist" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}"> #}
 <ol reversed class="postlist">
 {%- for post in postslist | reverse %}
 	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">

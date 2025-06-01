@@ -7,7 +7,6 @@ tags:
   - Happier Trifecta
   - Longevity
   - Nordling.xyz
-layout: layouts/post-happier-trifecta.njk
 eleventyNavigation:
   key: Happier Trifecta
   order: 1
@@ -28,21 +27,21 @@ Personally, I’m not a fan of New Year’s resolutions, but I love the idea of 
 ### This Year’s Trifecta
 
 1. **Join the “25 in ’25” Challenge**
-    
+
     This year, I’m excited to participate in the “Read 25 in ’25” challenge, which encourages reading for 25 minutes every day in 2025. Many people want to read more but find it hard to keep the habit. I’ve already finished several books thanks to this challenge, and I’m tracking my progress on my [Goodreads profile](https://www.goodreads.com/nordling "View my reading progress").
-    
+
 2. **Choose a One-Word Theme for 2025**
-    
+
     Picking a word or phrase to encapsulate my aims for 2025 is a fun and engaging way to focus my intentions, especially since I’m not a fan of resolutions. In 2024 I chose “**Communication**” as that was an area I wanted to improve in. My theme for this year is "**Longevity**," represented by the infinity symbol (∞), which serves as a reminder to make decisions once and stick to them. This theme can help me stay motivated and focused, leading me toward new ideas and unexpected possibilities.
-    
+
     The concept of longevity resonates with me in various ways. It motivates me to adopt healthier eating habits, such as a personal modification of the [Mediterranean diet](https://www.william-russell.com/blog/worlds-healthiest-diets/ "Explore the world's healthiest diets") and abstaining from alcohol. I’ve also started walking more and have incorporated a new [bike and bells workout routine](https://www.youtube.com/playlist?list=PLBJ0TIYiwZzhIPeV2bwTT-DdgAGNtKo8e "YouTube Playlist") into my life. Additionally, I consume a lot of content revolving around lifestyle choices that promote a long and healthy life. The goal is to build habits that last for 100 years.
-    
+
 3. **Write a “25 for 2025” List**
-    
+
     When I set specific aims for myself, I’m far more likely to achieve them. I’ve taken the time to create a list of 25 things I’d like to accomplish this year. They can be big or small, enjoyable or challenging, serious or whimsical. I like to include a mix. The important thing is to keep them specific, concrete, and manageable. For example, “Try 25 new recipes” works better than “Become an accomplished cook.”
-    
+
     You can be playful with "2025" by incorporating the numbers 2 and 5 to create different quantities. Focus on actions rather than outcomes. For instance, instead of saying “Learn Italian,” you might say “Practice Italian for 7 minutes a day.”
-    
+
 
 ## My “25 for 2025” List
 
