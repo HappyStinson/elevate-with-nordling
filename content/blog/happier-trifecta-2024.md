@@ -6,7 +6,6 @@ tags:
   - Personal Development
   - Happier Trifecta
   - Nordling.xyz
-layout: layouts/post-happier-trifecta.njk
 ---
 
 ## Introduction

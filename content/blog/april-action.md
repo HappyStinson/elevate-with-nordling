@@ -7,6 +7,7 @@ tags:
   - Personal Development
   - Productivity Tips
 ---
+<style>{% include "css/embed.css" %}</style>
 
 As I reflect on the past month, I've been using the [Plus Minus Next](https://nesslabs.com/plus-minus-next) framework to evaluate my progress and reflect on what’s Next. I see value in being open and honest about my experiences, both positive and negative.
 

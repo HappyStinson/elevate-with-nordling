@@ -1,17 +1,30 @@
 # Changelog
 
-Why bother with a changelog? I found several good reasons that aligns with my values and here are a few of them.
-1.  It gives my audience an insider’s look into how the platform or brand is **evolving**.
-2.  A public changelog aligns with values of **transparency** and sharing. Inviting people to see behind the curtain builds **trust**.
+Why bother with a changelog? I found several good reasons that align with my values, and here are a few of them:
+1. It gives my audience an insider’s look into how the platform or brand is **evolving**.
+2. A public changelog aligns with values of **transparency** and sharing. Inviting people to see behind the curtain builds **trust**.
+3. By keeping my changelog on my own domain, I ensure that I [own my data](https://indieweb.org/own_your_data).
+
+I thought about using Semantic Versioning but since I'm the sole maintainer I'd like to keep it as simple as possible, but not simpler.
 
 Inspired by [Robb Knight](https://rknight.me/log/).
+
+## 2025-06-01
+
+- Refactored changes from upstream
+  - Bumped 11ty navigation to v1
+  - Changed bundling to use `<style>` and `<script>` syntax in layouts
+  - Moved css to separate folder and files for better reload
+  - Simplified layouts
+  - Improved accessibility to skip link and visually hidden
+- Updated reasons for keeping a changelog
 
 ## 2025-05-30
 
 - Added project changelog to `/changelog`
 - Added a human readable sitemap to `/sitemap`
 - Upgraded Eleventy to [v3.1](https://www.11ty.dev/blog/eleventy-v3-1/)
-- Bumped Node to LTS version 24
+- Bumped Node to LTS version 24 (which will be supported until April 2028)
 
 ### 2025-05-22
 
