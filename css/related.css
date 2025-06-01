@@ -1,0 +1,20 @@
+/* Related posts */
+.related-posts {
+    background-color: var(--color-gray-20);
+    padding: 20px;
+}
+
+.related-posts h2 {
+	color: black;
+}
+
+/* Links in related posts */
+.related-posts a {
+    color: #0056b3; /* Dark blue for links */
+	padding-bottom: 2px;
+}
+
+.related-posts a:hover,
+.related-posts a:active {
+    color: black;
+}
