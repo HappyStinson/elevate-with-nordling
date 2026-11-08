@@ -13,6 +13,7 @@ const eleventyExcludeFromCollections = true;
 const eleventyComputed = {
 	title: "Tagged '{{ tag }}'",
 	permalink: function(data) {
+		// Avoid tags that differ only by case, such as "RSS" and "rss".
 		return `/tags/${this.slugify(data.tag)}/`;
 	}
 };

@@ -1,0 +1,32 @@
+# To get started with Dependabot version updates, specify which
+# package ecosystems to update and where the package manifests are located.
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    labels:
+      - "dependency-updates"
+    versioning-strategy: increase
+    allow:
+      - dependency-type: all
+    groups:
+      npm:
+        patterns:
+          - "*"
+
+#  - package-ecosystem: github-actions
+#    directory: ".github/workflows/"
+#    schedule:
+#      interval: monthly
+#    cooldown:
+#      default-days: 7
+#    groups:
+#      github-actions:
+#        patterns:
+#          - "*"
