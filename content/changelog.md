@@ -9,18 +9,16 @@ I thought about using Semantic Versioning but since I'm the sole maintainer I'd 
 
 Inspired by [Robb Knight](https://rknight.me/log/).
 
-## 2026-03-14
-
-- Added collection to blog archive in order to show older posts from [Happy kodar](/blog/#happy-kodar)
-
 ## 2026-11-08
 
 - Refactored and updated the site using changes from the upstream Eleventy Base Blog
   - Updated Eleventy and related dependencies
   - Replaced the Atom feed's XSL stylesheet with a JavaScript preview
-  - Kept the site's content, metadata, and plugins
-- Removed unused GitHub Pages configuration; deployments use Netlify
-- Kept Node at v24 because v26 cannot run on this Mac's macOS 12
+- Removed unused GitHub Pages configuration
+
+### 2026-03-14
+
+- Added collection to blog archive in order to show older posts from [Happy kodar](/blog/#happy-kodar)
 
 ### 2025-06-01
 
