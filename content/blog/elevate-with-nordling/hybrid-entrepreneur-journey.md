@@ -26,7 +26,7 @@ Beneath the surface, however, things have evolved. Just before turning 29, I qui
 
 In Australia, I had an incredible experience, making friends like Cam and Mandy and finding community support at Raymont, which was invaluable during the pandemic.
 
-When I decided to study music, I was fully committed—no plan B. Coding was off the table, and I stepped away from tech completely. During trimester breaks, however, I began exploring ways to generate income beyond music. I read about side hustles, attended property meetups, and realized there were other avenues I wanted to explore. Then, during my “Entrepreneurship in Music” course, we dug into the essentials of starting a business. I learned how to make a business model canvas, write a mission and vision statement, and handle basic finances—all skills that are proving valuable now. Inspired, I even rebranded my YouTube channel from “Ras World of Music and Lyrics” to “[Bangers ‘n’ Biz](https://www.youtube.com/@BangersNBiz),” reflecting a growing interest in the intersection of music and business.
+When I decided to study music, I was fully committed—no plan B. Coding was off the table, and I stepped away from tech completely. During trimester breaks, however, I began exploring ways to generate income beyond music. I read about side hustles, attended property meetups, and realized there were other avenues I wanted to explore. Then, during my “Entrepreneurship in Music” course, we dug into the essentials of starting a business. I learned how to make a business model canvas, write a mission and vision statement, and handle basic finances—all skills that are proving valuable now. Inspired, I even rebranded my YouTube channel from “Ras World of Music and Lyrics” to “[Bangers ‘n’ Biz](https://youtube.com/@RasNordling),” reflecting a growing interest in the intersection of music and business.
 
 As part of this exploration, I also started attending crypto meetups in Brisbane, where I developed an interest in Ethereum and music NFTs ([playlist](https://open.spotify.com/playlist/1yfodJjiskntg9vciGC2p9?si=e6RDzm8fQSWbL5fQjysodg)). I couldn’t stay away from coding for long, it seems, since I even took part in a few hackathons focused on Web3. This experience opened me up to the exciting possibilities of blockchain technology in creative industries.
 
@@ -68,7 +68,7 @@ I envision building a business focused on solving complex business challenges ef
 
 But there’s more to consider than just income. How do I want to spend my time? Do I want to immerse myself in tech, run a business, or manage properties? My decision should align with my values. And because I currently work in finance, trading stocks is restricted for compliance reasons. So to put my money to work, I’ll likely need to look into buying property or starting a business.
 
-I've recently looked into businesses for sale, to assess the viability of buying an existing company. I may start with freelancing or hobby-based business activities and eventually scale up to a registered business once I’ve built enough experience.  
+I've recently looked into businesses for sale, to assess the viability of buying an existing company. I may start with freelancing or hobby-based business activities and eventually scale up to a registered business once I’ve built enough experience.
 
 ### Embracing Hybrid Entrepreneurship
 

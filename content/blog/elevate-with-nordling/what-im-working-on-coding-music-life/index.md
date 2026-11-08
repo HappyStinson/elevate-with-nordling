@@ -70,7 +70,7 @@ I renewed my passport since my previous one expired last year shortly after I re
 
 ### Nordling.xyz (This Website)
 
-Since sharing this website on Facebook, I received some positive feedback from people I care about, and that means a lot. [Cam](https://camseale.com/) heard me talk with passion and frustration about this project all year and gave me credit for the authentic writing, clean design, and for inspiring him to write as well. The domain name is mine for another 10 years, so it’s safe to say this could turn into a decade-long project with new posts and small improvements along the way. Feel free to *bookmark* it. 😉
+Since sharing this website on Facebook, I received some positive feedback from people I care about, and that means a lot. Cam (friend from Western Australia) heard me talk with passion and frustration about this project all year and gave me credit for the authentic writing, clean design, and for inspiring him to write as well. The domain name is mine for another 10 years, so it’s safe to say this could turn into a decade-long project with new posts and small improvements along the way. Feel free to *bookmark* it. 😉
 
 ## Professional
 

@@ -6,9 +6,9 @@ eleventyNavigation:
 ---
 # About Me
 
-Hi, I’m Rasmus Nordling. I’m a programmer, musician, and content creator based in Stockholm. I enjoy various creative pursuits, including making music, videos, and writing code. 
+Hi, I’m Rasmus Nordling. I’m a programmer, musician, and content creator based in Stockholm. I enjoy various creative pursuits, including making music, videos, and writing code.
 
-You can check out my [songs](https://soundcloud.com/happystinson/sets/original-songs), [YouTube channel](https://youtube.com/@BangersNBiz), and [photos](https://www.flickr.com/people/ras-nordling/). 
+You can check out my [songs](https://soundcloud.com/happystinson/sets/original-songs), [YouTube channel](https://youtube.com/@RasNordling), and [photos](https://www.flickr.com/people/ras-nordling/).
 
 I’m passionate about self-care through meditation, exploring new places, and connecting with nature. Currently, I’m embracing life in Stockholm, but I love experiencing new locations.
 

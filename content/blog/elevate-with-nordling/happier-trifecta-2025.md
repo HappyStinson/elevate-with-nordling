@@ -7,9 +7,6 @@ tags:
   - Happier Trifecta
   - Longevity
   - Nordling.xyz
-eleventyNavigation:
-  key: Happier Trifecta
-  order: 1
 ---
 
 ## Introduction

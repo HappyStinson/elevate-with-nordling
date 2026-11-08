@@ -1,10 +1,25 @@
----js
-const eleventyNavigation = {
-	key: "Blog",
-	order: 2
-};
 ---
-<h1>Blog</h1>
+eleventyNavigation:
+  key: "Blog"
+  order: 2
+---
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+<h1>Blog Archive</h1>
+
+<section>
+    <h2>Elevate with Nordling</h2>
+    <p>Inspiring you to reach your full potential.</p>
+    <span>Since 2024</span>
+
+		{% set postslist = collections.elevate %}
+		{% include "postslist.njk" %}
+</section>
+
+<section>
+    <h2>happy kodar</h2>
+    <p>Welcome to the dev blog of Happy Stinson, a programmer from Stockholm who is dedicated to the craft of making games.</p>
+    <span>2012 - 2016</span>
+
+		{% set postslist = collections.happy %}
+		{% include "postslist.njk" %}
+</section>

@@ -5,7 +5,9 @@ date: 2025-05-30
 tags:
  - Eleventy
  - Web Development
+# permalink: /blog/future/
 ---
+hello from sub folder.
 I changed static site generator (again) in August 2024 and feel there has been a slow progress since. I started this project many years ago to grow both as a writer and web developer. I believe *content comes first* and tech second but there are certain technical improvements I feel would enhance the user experience. There is always a trade-off with the limited time we have to get things done in a day. This is a hobby project that I maintain in my spare time and expect it to [evolve during several years](https://blog.sharons.site/why-it-took-me-years-to-build-my-own-site/).
 
 **Starting over** means I can bulid this from the ground-up and add features as I see a need for them. It will help me reflect on the future maintainability so I can decide which features to implement next and which ideas to let go of.
