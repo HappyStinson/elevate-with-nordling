@@ -13,7 +13,7 @@ Inspired by [Robb Knight](https://rknight.me/log/).
 
 - Added collection to blog archive in order to show older posts from [Happy kodar](/blog/#happy-kodar)
 
-## 2025-06-01
+### 2025-06-01
 
 - Refactored changes from upstream
   - Bumped 11ty navigation to v1
@@ -23,7 +23,7 @@ Inspired by [Robb Knight](https://rknight.me/log/).
   - Improved accessibility to skip link and visually hidden
 - Updated reasons for keeping a changelog
 
-## 2025-05-30
+### 2025-05-30
 
 - Added project changelog to `/changelog`
 - Added a human readable sitemap to `/sitemap`
