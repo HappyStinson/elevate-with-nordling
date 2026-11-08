@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+title: Anniversaries
+pagination:
+  data: anniversaries.years
+  size: 1
+  alias: anniversaryYear
+permalink: "/anniversaries/{{ anniversaryYear.year }}/index.html"
+eleventyExcludeFromCollections: true
+---
+<p><a href="/anniversaries/">← All anniversary years</a></p>
+<h1>{{ anniversaryYear.year }} anniversaries</h1>
+<p>In {{ anniversaryYear.year }}, I celebrated {{ anniversaryYear.celebratedCount }} of {{ anniversaryYear.entries | length }} anniversaries.</p>
+<p>My goal is to celebrate {{ anniversaryYear.celebrationGoal }} anniversaries in {{ anniversaryYear.year }}. {% if anniversaryYear.celebratedCount >= anniversaryYear.celebrationGoal %}Goal achieved!{% else %}{{ anniversaryYear.celebrationGoal - anniversaryYear.celebratedCount }} more to go.{% endif %}</p>
+
+{% include "anniversary-list.njk" %}

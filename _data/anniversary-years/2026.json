@@ -1,0 +1,703 @@
+{
+  "entries": [
+    {
+      "name": "Saint Francis of Assisi",
+      "originYear": 1226,
+      "anniversaryOf": "death",
+      "category": "People",
+      "date": "October 4"
+    },
+    {
+      "name": "The Royal Court Orchestra (Kungliga Hovkapellet)",
+      "originYear": 1526,
+      "anniversaryOf": "founding",
+      "category": "Music"
+    },
+    {
+      "name": "Le nozze di Figaro",
+      "originYear": 1786,
+      "anniversaryOf": "premiere",
+      "category": "Operas"
+    },
+    {
+      "name": "Underberg",
+      "originYear": 1846,
+      "anniversaryOf": "founding",
+      "category": "Food & drink"
+    },
+    {
+      "name": "Gotland Folk High School",
+      "originYear": 1876,
+      "anniversaryOf": "founding",
+      "category": "Education"
+    },
+    {
+      "name": "Gustav Mahler completes his Symphony No. 3",
+      "originYear": 1896,
+      "anniversaryOf": "completion",
+      "category": "Music"
+    },
+    {
+      "name": "Royal Stockholm Philharmonic Orchestra (Kungliga Filharmonikerna)",
+      "originYear": 1901,
+      "anniversaryOf": "founding",
+      "category": "Music"
+    },
+    {
+      "name": "Stockholm Sailing Club",
+      "originYear": 1901,
+      "anniversaryOf": "founding",
+      "category": "Organizations",
+      "date": "August 25",
+      "note": "I noticed the celebration too late; it clashed with my Budapest trip."
+    },
+    {
+      "name": "Flygt",
+      "originYear": 1901,
+      "anniversaryOf": "founding",
+      "category": "Brands",
+			"celebrated": true
+    },
+    {
+      "name": "Dmitri Shostakovich",
+      "originYear": 1906,
+      "anniversaryOf": "birth",
+      "category": "People"
+    },
+    {
+      "name": "Sofia Church",
+      "originYear": 1906,
+      "anniversaryOf": "consecration",
+      "category": "Places",
+      "note": "Go to a church service?"
+    },
+    {
+      "name": "Blåsarsymfonikerna",
+      "originYear": 1906,
+      "anniversaryOf": "founding",
+      "category": "Music",
+      "links": [
+        {
+          "label": "About the orchestra",
+          "url": "https://blasarsymfonikerna.se/om-oss/"
+        }
+      ]
+    },
+    {
+      "name": "Stockholm Concert Hall (Konserthuset)",
+      "originYear": 1926,
+      "anniversaryOf": "opening",
+      "category": "Places",
+      "links": [
+        {
+          "label": "Centenary",
+          "url": "https://www.konserthuset.se/konserthuset-100-ar/"
+        },
+        {
+          "label": "Welcome to the centenarian",
+          "url": "https://www.konserthuset.se/konserthuset-100-ar/valkommen-till-100-aringen"
+        }
+      ]
+    },
+    {
+      "name": "Södergården, Götgatan 37",
+      "originYear": 1926,
+      "anniversaryOf": "opening",
+      "category": "Places"
+    },
+    {
+      "name": "The first Michelin star",
+      "originYear": 1926,
+      "anniversaryOf": "award",
+      "category": "Food & drink",
+      "links": [
+        {
+          "label": "Article about the first Michelin star",
+          "url": "https://sr.reco.ebu.io/index.html?page=article&organisation=franceinfo&article_id=7865858&version=VpAn8e5W4pqg6PkfvEBXWu&source=SR&navigation=1&box=e4f0997a-770a-4830-be40-b8ee4c5b6d6a&box_article_organisation=SR&box_article_ide4f0997a-770a-4830-be40-b8ee4c5b6d6a&consent=true"
+        }
+      ]
+    },
+    {
+      "name": "Ducati",
+      "originYear": 1926,
+      "anniversaryOf": "founding",
+      "category": "Vehicles",
+      "links": [
+        {
+          "label": "Ducati centenary",
+          "url": "https://www.ducati.com/us/en/ducati100"
+        },
+        {
+          "label": "Ducati's history and centenary plans",
+          "url": "https://motorbikemad.com/blogs/press/ducati-turns-100-in-2026-the-full-history-and-centenary-plans-at-misano"
+        }
+      ]
+    },
+    {
+      "name": "Swedish Air Force (Flygvapnet)",
+      "originYear": 1926,
+      "anniversaryOf": "founding",
+      "category": "Organizations",
+      "links": [
+        {
+          "label": "Swedish Armed Forces article",
+          "url": "https://www.forsvarsmakten.se/aktuellt/nyheter/flygvapnet-firar-100-ar/"
+        }
+      ]
+    },
+    {
+      "name": "Mel Brooks",
+      "originYear": 1926,
+      "anniversaryOf": "birth",
+      "category": "People"
+    },
+    {
+      "name": "David Attenborough",
+      "originYear": 1926,
+      "anniversaryOf": "birth",
+      "category": "People"
+    },
+    {
+      "name": "Lisa Elmqvist",
+      "originYear": 1926,
+      "anniversaryOf": "founding",
+      "category": "Food & drink"
+    },
+    {
+      "name": "Sven-Ingvars",
+      "originYear": 1956,
+      "anniversaryOf": "formation",
+      "category": "Music"
+    },
+    {
+      "name": "Ted Gärdestad",
+      "originYear": 1956,
+      "anniversaryOf": "birth",
+      "category": "People",
+      "links": [
+        {
+          "label": "Tribute concert",
+          "url": "https://www.berwaldhallen.se/konsert/en-hyllningskonsert-till-ted-gardestad-70-ar"
+        }
+      ]
+    },
+    {
+      "name": "Ving",
+      "originYear": 1956,
+      "anniversaryOf": "founding",
+      "category": "Organizations",
+      "links": [
+        {
+          "label": "Ving offer",
+          "url": "https://www.ica.se/stammis/partnererbjudanden/alla-erbjudanden/ving/?utm_source=BONUSMEJL&utm_medium=email&utm_id=C000006182&utm_campaign=ICA_Bonus_Buffe%20%20%20%20%20%20%20%20%20%2011334_A000176933_%201&utm_content=banner_motif_b"
+        }
+      ]
+    },
+    {
+      "name": "Alfa Romeo Club Svezia",
+      "originYear": 1956,
+      "anniversaryOf": "founding",
+      "category": "Organizations",
+			"celebrated": true
+    },
+    {
+      "name": "Felix ketchup",
+      "originYear": 1956,
+      "anniversaryOf": "launch",
+      "category": "Food & drink",
+			"celebrated": true,
+      "links": [
+        {
+          "label": "Felix ketchup's 70th anniversary",
+          "url": "https://www.felix.se/felix-ketchup-70ar/"
+        }
+      ]
+    },
+    {
+      "name": "Eurovision Song Contest",
+      "originYear": 1956,
+      "anniversaryOf": "first contest",
+      "category": "Music",
+      "links": [
+        {
+          "label": "70th anniversary celebration",
+          "url": "https://www.eurovision.com/stories/eurovision-marks-70th-anniversary-with-global-celebration/"
+        }
+      ]
+    },
+    {
+      "name": "Kalaspuffar",
+      "originYear": 1966,
+      "anniversaryOf": "launch",
+      "category": "Food & drink",
+      "links": [
+        {
+          "label": "Kalaspuffar",
+          "url": "https://www.kalaspuffar.se/"
+        }
+      ]
+    },
+    {
+      "name": "Bamse",
+      "originYear": 1966,
+      "anniversaryOf": "first publication",
+      "category": "Books"
+    },
+    {
+      "name": "Carola",
+      "originYear": 1966,
+      "anniversaryOf": "birth",
+      "category": "People",
+      "note": "See the film at the cinema?",
+      "links": [
+        {
+          "label": "Carola film",
+          "url": "https://triart.se/film/carola"
+        }
+      ]
+    },
+    {
+      "name": "AC/DC, Dirty Deeds Done Dirt Cheap",
+      "originYear": 1976,
+      "anniversaryOf": "album release",
+      "category": "Music",
+      "note": "Do I have this record at home?"
+    },
+    {
+      "name": "Folkoperan",
+      "originYear": 1976,
+      "anniversaryOf": "founding",
+      "category": "Places"
+    },
+    {
+      "name": "Dancing Queen",
+      "originYear": 1976,
+      "anniversaryOf": "single release",
+      "category": "Music",
+      "note": "Was it released on an album that year too?"
+    },
+    {
+      "name": "Klöverbladet",
+      "originYear": 1976,
+      "anniversaryOf": "origin",
+      "category": "Publications",
+			"celebrated": true
+    },
+    {
+      "name": "Jack by Ulf Lundell",
+      "originYear": 1976,
+      "anniversaryOf": "novel publication",
+      "category": "Books"
+    },
+    {
+      "name": "Hotel California",
+      "originYear": 1976,
+      "anniversaryOf": "album release",
+      "category": "Music"
+    },
+    {
+      "name": "Rocky",
+      "originYear": 1976,
+      "anniversaryOf": "film release",
+      "category": "Film & TV",
+      "note": "Watch the first film, then the documentary in December. Was it in Swedish cinemas?",
+      "links": [
+        {
+          "label": "I Play Rocky",
+          "url": "https://en.wikipedia.org/wiki/I_Play_Rocky"
+        }
+      ]
+    },
+    {
+      "name": "The Year Was 1976 (Året var 1976)",
+      "originYear": 1976,
+      "anniversaryOf": "year in review",
+      "category": "Film & TV",
+      "links": [
+        {
+          "label": "Watch on SVT Play",
+          "url": "https://www.svtplay.se/video/jMdmdY9/aret-var-1976"
+        }
+      ]
+    },
+    {
+      "name": "Europe, The Final Countdown",
+      "originYear": 1986,
+      "anniversaryOf": "single release",
+      "category": "Music"
+    },
+    {
+      "name": "Canneloni Macaroni",
+      "originYear": 1986,
+      "anniversaryOf": "release",
+      "category": "Music",
+			"celebrated": true
+    },
+    {
+      "name": "The Legend of Zelda",
+      "originYear": 1986,
+      "anniversaryOf": "first game release",
+      "category": "Games",
+      "note": "A 40th anniversary worth celebrating in Hyrule style.",
+      "links": [
+        {
+          "label": "40th anniversary ideas",
+          "url": "https://www.creativebloq.com/entertainment/celebrate-the-legend-of-zeldas-40th-anniversary-with-these-heroic-goodies"
+        }
+      ]
+    },
+    {
+      "name": "Top Gun",
+      "originYear": 1986,
+      "anniversaryOf": "film release",
+      "category": "Film & TV",
+      "note": "See it at the cinema?"
+    },
+    {
+      "name": "Mälaren Runt",
+      "originYear": 1986,
+      "anniversaryOf": "origin",
+      "category": "Sport"
+    },
+    {
+      "name": "Igor Sport Söder",
+      "originYear": 1986,
+      "anniversaryOf": "origin",
+      "category": "Organizations"
+    },
+    {
+      "name": "Macken",
+      "originYear": 1986,
+      "anniversaryOf": "TV premiere",
+      "category": "Film & TV",
+      "links": [
+        {
+          "label": "Macken",
+          "url": "https://sv.wikipedia.org/wiki/Macken"
+        }
+      ]
+    },
+    {
+      "name": "OGAE Song Contest",
+      "originYear": 1986,
+      "anniversaryOf": "first contest",
+      "category": "Music",
+      "note": "OGAE's oldest song contest.",
+      "links": [
+        {
+          "label": "OGAE Song Contest 2026",
+          "url": "https://melodifestivalklubben.se/ogae-song-contest-2026/"
+        }
+      ]
+    },
+    {
+      "name": "Kingpin",
+      "originYear": 1996,
+      "anniversaryOf": "film release",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Scream",
+      "originYear": 1996,
+      "anniversaryOf": "film release",
+      "category": "Film & TV",
+      "note": "I watched all seven movies since I liked them a lot.",
+			"celebrated": true
+    },
+    {
+      "name": "Redline Records",
+      "originYear": 1996,
+      "anniversaryOf": "origin",
+      "category": "Music",
+      "note": "A biography, Mejor Futuro, about the brothers behind Redline Records and the studio is published by Natur & Kultur on November 6."
+    },
+    {
+      "name": "Pärsons",
+      "originYear": 1996,
+      "anniversaryOf": "origin",
+      "category": "Food & drink"
+    },
+    {
+      "name": "J. Lindeberg",
+      "originYear": 1996,
+      "anniversaryOf": "founding",
+      "category": "Fashion",
+      "note": "See if I can find an original piece from when he was still active in the company."
+    },
+    {
+      "name": "Sabrina the Teenage Witch",
+      "originYear": 1996,
+      "anniversaryOf": "film and pilot premiere",
+      "category": "Film & TV",
+      "note": "Watch the film and pilot?"
+    },
+    {
+      "name": "Junibacken",
+      "originYear": 1996,
+      "anniversaryOf": "opening",
+      "category": "Places",
+      "links": [
+        {
+          "label": "Junibacken anniversary",
+          "url": "https://www.junibacken.se/upplevelse/jubileum/"
+        }
+      ]
+    },
+    {
+      "name": "Sanna Nielsen",
+      "originYear": 1996,
+      "anniversaryOf": "artist debut",
+      "category": "Music",
+      "note": "I saw her anniversary concert at Konserthuset. Really good!",
+      "celebrated": true
+    },
+    {
+      "name": "Load by Metallica",
+      "originYear": 1996,
+      "anniversaryOf": "album release",
+      "category": "Music",
+      "note": "Time to listen to this Banger again. 🤘"
+    },
+    {
+      "name": "The Score by Fugees",
+      "originYear": 1996,
+      "anniversaryOf": "album release",
+      "category": "Music"
+    },
+    {
+      "name": "Spice by the Spice Girls",
+      "originYear": 1996,
+      "anniversaryOf": "album release",
+      "category": "Music"
+    },
+    {
+      "name": "Fargo",
+      "originYear": 1996,
+      "anniversaryOf": "film release",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Trainspotting",
+      "originYear": 1996,
+      "anniversaryOf": "film release",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Allerum Präst",
+      "originYear": 1996,
+      "anniversaryOf": "origin",
+      "category": "Food & drink"
+    },
+    {
+      "name": "Marsvinsholm Manor",
+      "originYear": 1996,
+      "anniversaryOf": "origin",
+      "category": "Places"
+    },
+    {
+      "name": "Uppdrag granskning",
+      "originYear": 2001,
+      "anniversaryOf": "first broadcast",
+      "category": "Film & TV",
+      "links": [
+        {
+          "label": "25 years of Uppdrag granskning",
+          "url": "https://www.svtplay.se/video/edPymxQ/uppdrag-granskning-25-ar/1-25-ar-av-dalig-stamning"
+        }
+      ]
+    },
+    {
+      "name": "Jernhusen",
+      "originYear": 2001,
+      "anniversaryOf": "founding",
+      "category": "Organizations",
+      "note": "I used the discount booklet to eat at Taco Bar.",
+			"celebrated": true
+    },
+    {
+      "name": "Wikipedia",
+      "originYear": 2001,
+      "anniversaryOf": "launch",
+      "category": "Websites",
+      "links": [
+        {
+          "label": "Wikipedia 25",
+          "url": "https://wikimediafoundation.org/wikipedia25"
+        },
+        {
+          "label": "Wikipedia mascot",
+          "url": "https://wikimediafoundation.org/wikipedia25/wikipedia-mascot"
+        }
+      ]
+    },
+    {
+      "name": "Harry Potter and the Philosopher's Stone",
+      "originYear": 2001,
+      "anniversaryOf": "film premiere",
+      "category": "Film & TV",
+      "links": [
+        {
+          "label": "25 years of film magic",
+          "url": "https://www.harrypotter.com/news/celebrate-25-years-of-harry-potter-and-the-philosophers-stone-film-magic?utm_source=hp_film_social&utm_medium=YT&utm_campaign=HarryPotter25&utm_content=WWD-25thAnniversaryCampaignAnnounce-1470"
+        }
+      ]
+    },
+    {
+      "name": "The Fast and the Furious",
+      "originYear": 2001,
+      "anniversaryOf": "film release",
+      "category": "Film & TV",
+      "links": [
+        {
+          "label": "The Fast and the Furious",
+          "url": "https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)"
+        }
+      ]
+    },
+    {
+      "name": "Johnossi",
+      "originYear": 2006,
+      "anniversaryOf": "formation",
+      "category": "Music",
+      "note": "20 years (2006–2026); revisit the album."
+    },
+    {
+      "name": "Nordic Game Jam",
+      "originYear": 2006,
+      "anniversaryOf": "first event",
+      "category": "Games",
+      "note": "Also 10 years since I went there.",
+      "links": [
+        {
+          "label": "Nordic Game Jam",
+          "url": "https://nordicgamejam.com/"
+        }
+      ]
+    },
+    {
+      "name": "Linux Mint",
+      "originYear": 2006,
+      "anniversaryOf": "first release",
+      "category": "Technology"
+    },
+    {
+      "name": "The Devil Wears Prada",
+      "originYear": 2006,
+      "anniversaryOf": "film release",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Lordi wins Eurovision",
+      "originYear": 2006,
+      "anniversaryOf": "Eurovision win",
+      "category": "Music"
+    },
+    {
+      "name": "Daughtry",
+      "originYear": 2006,
+      "anniversaryOf": "debut album release",
+      "category": "Music"
+    },
+    {
+      "name": "Amida Kolgrill, Folkungagatan",
+      "originYear": 2006,
+      "anniversaryOf": "opening",
+      "category": "Food & drink"
+    },
+    {
+      "name": "The Black Parade by My Chemical Romance",
+      "originYear": 2006,
+      "anniversaryOf": "album release",
+      "category": "Music"
+    },
+    {
+      "name": "Mycket väsen för ingenting by [ingenting]",
+      "originYear": 2006,
+      "anniversaryOf": "album release",
+      "category": "Music",
+      "note": "The indie band [ingenting] is releasing the album on vinyl for the first time and celebrating with a release party at Debaser Strand on December 4."
+    },
+    {
+      "name": "Boten Anna by Basshunter",
+      "originYear": 2006,
+      "anniversaryOf": "single release",
+      "category": "Music"
+    },
+    {
+      "name": "Let's Dance (Swedish TV series)",
+      "originYear": 2006,
+      "anniversaryOf": "first broadcast",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Stadium Arcadium by Red Hot Chili Peppers",
+      "originYear": 2006,
+      "anniversaryOf": "album release",
+      "category": "Music"
+    },
+    {
+      "name": "Uncommon Life by Tony Dungy",
+      "originYear": 2011,
+      "anniversaryOf": "book publication",
+      "category": "Books",
+			"note": "A book I found while walking in Brisbane. I read a page in it whenever I can."
+    },
+    {
+      "name": "Mamma Mia! The Party",
+      "originYear": 2016,
+      "anniversaryOf": "opening",
+      "category": "Places"
+    },
+    {
+      "name": "Franky's, Vasagatan",
+      "originYear": 2016,
+      "anniversaryOf": "opening",
+      "category": "Food & drink",
+      "note": "🍔"
+    },
+    {
+      "name": "La La Land",
+      "originYear": 2016,
+      "anniversaryOf": "film premiere",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Sing Street",
+      "originYear": 2016,
+      "anniversaryOf": "film premiere",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Fleabag",
+      "originYear": 2016,
+      "anniversaryOf": "TV premiere",
+      "category": "Film & TV"
+    },
+    {
+      "name": "Dekonstruktiv Kritik",
+      "originYear": 2016,
+      "anniversaryOf": "podcast launch",
+      "category": "Podcast"
+    },
+    {
+      "name": "My Kawasaki GPZ 600",
+      "originYear": 2016,
+      "anniversaryOf": "purchase",
+      "category": "Personal",
+      "note": "I bought it from dad's friend Jonny."
+    },
+    {
+      "name": "The Bible in a Year",
+      "originYear": 2021,
+      "anniversaryOf": "first release",
+      "category": "Podcasts"
+    }
+  ],
+  "milestones": [
+    {
+      "name": "Lewis Hamilton and 400 Formula One Grands Prix",
+      "category": "Sport",
+      "note": "Achieved at Interlagos."
+    }
+  ]
+}

@@ -40,4 +40,24 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("sortAlphabetically", strings =>
 		(strings || []).sort((b, a) => b.localeCompare(a))
 	);
+
+	eleventyConfig.addFilter("getAnniversaryYear", (years, targetYear) =>
+		years.find(({ year }) => year === targetYear)
+	);
+
+	eleventyConfig.addFilter("groupAnniversaries", (entries, year) => {
+		const groups = new Map();
+
+		for(const entry of entries) {
+			const age = year - entry.originYear;
+			if(!groups.has(age)) {
+				groups.set(age, []);
+			}
+			groups.get(age).push(entry);
+		}
+
+		return [...groups]
+			.sort(([ageA], [ageB]) => ageB - ageA)
+			.map(([age, groupedEntries]) => ({ age, entries: groupedEntries }));
+	});
 };
