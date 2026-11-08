@@ -1,0 +1,51 @@
+.anniversary-group {
+	margin-block: 2rem;
+}
+
+.anniversary-grid {
+	display: grid;
+	gap: 1rem;
+}
+
+.anniversary-card {
+	border: 1px solid var(--color-gray-50);
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.anniversary-card-celebrated {
+	border-inline-start: 0.4rem solid var(--text-color-link);
+	background-color: color-mix(in srgb, var(--text-color-link) 10%, var(--background-color));
+}
+
+.anniversary-card h3 {
+	margin-block: 0.25rem 0.5rem;
+}
+
+.anniversary-category,
+.anniversary-status {
+	font-size: 0.875rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+.anniversary-status {
+	display: inline-block;
+	border: 1px solid currentColor;
+	border-radius: 999px;
+	padding: 0.15rem 0.6rem;
+}
+
+.anniversary-detail {
+	font-size: 0.9rem;
+}
+
+.anniversary-links {
+	margin-bottom: 0;
+}
+
+@media (min-width: 36rem) {
+	.anniversary-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}

@@ -1,0 +1,35 @@
+---
+title: Anniversaries
+description: A year-by-year collection of anniversaries and milestones worth celebrating.
+eleventyNavigation:
+  key: "Anniversaries"
+  order: 3
+---
+<h1>Anniversaries</h1>
+
+<p>Things from music, culture, places, people, and everyday life that have a milestone year. The year pages keep their own notes and stay available as an archive.</p>
+
+{% set currentAnniversaryYear = anniversaries.years | getAnniversaryYear(anniversaries.currentYear) %}
+
+<section aria-labelledby="current-anniversaries">
+	{% if currentAnniversaryYear %}
+		<h2 id="current-anniversaries">This year: {{ currentAnniversaryYear.year }}</h2>
+		<p>In {{ currentAnniversaryYear.year }}, I celebrated {{ currentAnniversaryYear.celebratedCount }} of {{ currentAnniversaryYear.entries | length }} anniversaries.</p>
+		<p>My goal is to celebrate {{ currentAnniversaryYear.celebrationGoal }} anniversaries in {{ currentAnniversaryYear.year }}. {% if currentAnniversaryYear.celebratedCount >= currentAnniversaryYear.celebrationGoal %}Goal achieved!{% else %}{{ currentAnniversaryYear.celebrationGoal - currentAnniversaryYear.celebratedCount }} more to go.{% endif %}</p>
+		<p><a href="/anniversaries/{{ currentAnniversaryYear.year }}/">View the {{ currentAnniversaryYear.year }} anniversary overview</a></p>
+		{% set anniversaryYear = currentAnniversaryYear %}
+		{% include "anniversary-list.njk" %}
+	{% else %}
+		<h2 id="current-anniversaries">This year: {{ anniversaries.currentYear }}</h2>
+		<p>The anniversary overview for this year has not been added yet.</p>
+	{% endif %}
+</section>
+
+<section aria-labelledby="anniversary-archive">
+	<h2 id="anniversary-archive">Year archive</h2>
+	<ul>
+		{% for anniversaryYear in anniversaries.years | sort(true, false, "year") %}
+			<li><a href="/anniversaries/{{ anniversaryYear.year }}/">{{ anniversaryYear.year }}</a>{% if anniversaryYear.year == anniversaries.currentYear %} (current year){% endif %}</li>
+		{% endfor %}
+	</ul>
+</section>

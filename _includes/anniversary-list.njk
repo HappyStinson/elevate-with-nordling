@@ -1,0 +1,40 @@
+<style>{% include "css/anniversaries.css" %}</style>
+
+{% for group in anniversaryYear.entries | groupAnniversaries(anniversaryYear.year) %}
+	<section class="anniversary-group" aria-labelledby="anniversary-{{ anniversaryYear.year }}-{{ group.age }}">
+		<h2 id="anniversary-{{ anniversaryYear.year }}-{{ group.age }}">{{ group.age }} years</h2>
+		<div class="anniversary-grid">
+			{% for entry in group.entries %}
+				<article class="anniversary-card{% if entry.celebrated %} anniversary-card-celebrated{% endif %}">
+					<p class="anniversary-category">{{ entry.category }}</p>
+					<h3>{{ entry.name }}</h3>
+					<p class="anniversary-detail">{{ group.age }} years since {{ entry.anniversaryOf }} ({{ entry.originYear }}).{% if entry.date %} Anniversary date: {{ entry.date }}.{% endif %}</p>
+					{% if entry.note %}<p>{{ entry.note }}</p>{% endif %}
+					{% if entry.celebrated %}<p class="anniversary-status">Celebrated</p>{% endif %}
+					{% if entry.links %}
+						<ul class="anniversary-links">
+							{% for link in entry.links %}
+								<li><a href="{{ link.url }}">{{ link.label }}</a></li>
+							{% endfor %}
+						</ul>
+					{% endif %}
+				</article>
+			{% endfor %}
+		</div>
+	</section>
+{% endfor %}
+
+{% if anniversaryYear.milestones %}
+	<section class="anniversary-group" aria-labelledby="anniversary-{{ anniversaryYear.year }}-milestones">
+		<h2 id="anniversary-{{ anniversaryYear.year }}-milestones">Other milestones to check</h2>
+		<div class="anniversary-grid">
+			{% for milestone in anniversaryYear.milestones %}
+				<article class="anniversary-card">
+					<p class="anniversary-category">{{ milestone.category }}</p>
+					<h3>{{ milestone.name }}</h3>
+					{% if milestone.note %}<p>{{ milestone.note }}</p>{% endif %}
+				</article>
+			{% endfor %}
+		</div>
+	</section>
+{% endif %}
