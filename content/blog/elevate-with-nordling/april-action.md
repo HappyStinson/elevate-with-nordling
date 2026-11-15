@@ -6,6 +6,22 @@ tags:
   - Life Reflections
   - Personal Development
   - Productivity Tips
+aiFeedback:
+  reviewed: 2026-11-15
+  model: "Claude Opus 5"
+  changes:
+    - rule: american-english-spelling
+      category: spelling
+      before: 'my new neighbour/flatmate William'
+      after: 'my new neighbor/flatmate William'
+      why: 'This site writes American English throughout, which drops the "u" in the -our ending.'
+      source: 'Merriam-Webster — neighbor, with "neighbour" listed as the British variant'
+    - rule: american-english-single-l-before-suffix
+      category: spelling
+      before: 'Cancelled my plans'
+      after: 'Canceled my plans'
+      why: 'American English keeps a single "l" when adding -ed or -ing to a word whose last syllable is unstressed, so "canceled". The doubled "l" is the British form.'
+      source: 'Merriam-Webster — canceled shown as the primary form, cancelled as the variant'
 ---
 <style>{% include "css/embed.css" %}</style>
 
@@ -45,7 +61,7 @@ Some of the items mentioned below are part of my [25 for 2025 list](/blog/happie
 - Prioritized watching Sweden in the U18 hockey tournament and I’m hoping for victory against USA in the semi-final.
 - Had Peas & Love (falafel) and non-alcoholic beers with Mathias, who dragged my ass out of the apartment {% emoji "❤️", "red heart" %}.
 - Got interview coaching by my new colleague Karin.
-- Met my new neighbour/flatmate William who seems to be a fun bloke.
+- Met my new neighbor/flatmate William who seems to be a fun bloke.
 
 ## Minus -
 
@@ -59,7 +75,7 @@ The Minus column is particularly helpful in acknowledging that life isn't always
 - Didn't visit any museums or attend lunch concerts at church.
 - Missed International Songwriters Day and didn't celebrate International Jazz Day.
 - Couldn't run the new Decentraland client on my Mac, leading to me losing interest in the whole MVFW25 (Metaverse Fashion Week).
-- Cancelled my plans to participate in the Microsoft AI Skills Fest.
+- Canceled my plans to participate in the Microsoft AI Skills Fest.
 - Had a low period, especially after Easter, where I didn't take care of myself.
 - Didn't start any new plans in Balance, lost my streak.
 - Lost motivation to contact recruiters and didn't make progress with the Agio coding test.

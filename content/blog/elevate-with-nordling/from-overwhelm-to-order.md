@@ -12,6 +12,16 @@ tags:
   - Mindfulness
   - Time Management
   - Nordling.xyz
+aiFeedback:
+  reviewed: 2026-11-15
+  model: "Claude Opus 5"
+  changes:
+    - rule: american-english-spelling
+      category: spelling
+      before: 'Using **greyscale mode**'
+      after: 'Using **grayscale mode**'
+      why: 'American English spells the color "gray", so the compound is "grayscale". "Grey" is chiefly British.'
+      source: 'Merriam-Webster — grayscale, and gray with "grey" marked chiefly British'
 ---
 Every day, I face a mountain of decisions that leave me mentally exhausted before noon. It’s not the big, life-changing choices that weigh me down, but the endless barrage of small, routine ones. Should I go to the gym now or later? What should I eat for dinner? With so many options, even simple tasks start to feel overwhelming.
 
@@ -67,7 +77,7 @@ These routines may not always be fun or comfortable, but they help me save brain
     - **Admin** on Friday (inbox zero, admin tasks)
     - **Planner** on weekends (strategize for the week ahead)
 - **Phone settings**: Keeping my phone on Do Not Disturb mode to minimize distractions
-- **Device settings**: Using **greyscale mode** on all devices to reduce distractions and eye strain
+- **Device settings**: Using **grayscale mode** on all devices to reduce distractions and eye strain
 - **Organizational tools**: Specific apps for each need
     - **Brave browser** for ad-free, fast, and privacy-focused browsing
     - **Google Calendar** for scheduling

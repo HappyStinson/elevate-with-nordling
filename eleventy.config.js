@@ -139,12 +139,62 @@ export default async function(eleventyConfig) {
 		return (new Date()).toISOString();
 	});
 
+	// Curly quotes and apostrophes site-wide, rendered rather than typed. The posts are
+	// split down the middle — the happy kodar archive is all straight quotes, the newer
+	// elevate posts are mostly curly, because they were drafted in a word processor. Fixing
+	// that in the source would mean editing 27 files and then staying vigilant forever, so
+	// markdown-it does it at build time and the author keeps typing whichever is handy.
+	//
+	// `typographer` also turns "..." into an ellipsis and "--" into an en dash. Both are
+	// wanted. It does not touch code spans, code blocks or HTML attributes, and it does not
+	// see YAML front matter at all — `title` and `description` are rendered as plain
+	// strings, so a straight quote there stays straight and has to be typed curly.
+	eleventyConfig.amendLibrary("md", (mdLib) => mdLib.set({ typographer: true }));
+
 	eleventyConfig.addCollection("elevate", (collectionApi) => {
 		return collectionApi.getFilteredByGlob("content/blog/elevate-with-nordling/{,**/}*.md");
 	});
 
 	eleventyConfig.addCollection("happy", (collectionApi) => {
 		return collectionApi.getFilteredByGlob("content/blog/happy-kodar/{,**/}*.md");
+	});
+
+	// Every applied copy correction, deduplicated by rule. /copy-feedback/ is a lesson
+	// index rather than a log: one example of each rule is what teaches you not to
+	// repeat it, and listing every occurrence would bury that. Voice entries are left
+	// out because those are the author's own stylistic choices, not rules to learn.
+	eleventyConfig.addCollection("copyLessons", (collectionApi) => {
+		let lessons = new Map();
+
+		collectionApi.getAll()
+			.filter(item => item.data.aiFeedback)
+			.sort((a, b) => a.data.aiFeedback.reviewed - b.data.aiFeedback.reviewed)
+			.forEach(item => {
+				for(let change of item.data.aiFeedback.changes) {
+					if(change.category === "voice") {
+						continue;
+					}
+
+					let lesson = lessons.get(change.rule);
+
+					if(lesson) {
+						lesson.count++;
+						continue;
+					}
+
+					lessons.set(change.rule, {
+						...change,
+						count: 1,
+						// Not every page has a title (about/index.md leans on its
+						// navigation key), so fall back rather than render "undefined".
+						firstSeenTitle: item.data.title || item.data.eleventyNavigation?.key || item.url,
+						firstSeenUrl: item.url
+					});
+				}
+			});
+
+		return Array.from(lessons.values())
+			.sort((a, b) => a.category.localeCompare(b.category) || a.rule.localeCompare(b.rule));
 	});
 
 	// Features to make your build faster (when you need them)

@@ -1,0 +1,30 @@
+---
+title: "Copy feedback"
+description: "Every kind of copy mistake an AI has caught on this site, with the rule behind it and one example each."
+---
+<style>{% include "css/copy-feedback.css" %}</style>
+
+<h1>Copy feedback</h1>
+
+<p>I run drafts past an AI copyeditor before publishing. Mechanical mistakes — spelling, punctuation, agreement, house style — get fixed straight away. Anything that would change how I sound I decide on myself, and those decisions stay off this page.</p>
+
+<p>This is the index of what it caught, grouped by rule with one example each. The point is to learn the rule, not to count my typos. Every entry names a source, because you shouldn’t take an AI’s word for a correction and neither should I.</p>
+
+{%- if collections.copyLessons.length %}
+{%- for category, lessons in collections.copyLessons | groupby("category") %}
+<h2>{{ category | title }}</h2>
+
+{%- for lesson in lessons %}
+<div class="copy-lesson">
+	<p class="copy-lesson-change diff">
+		<span aria-hidden="true">{{ lesson.before | inlineDiff(lesson.after) | safe }}</span>
+		<span class="visually-hidden">Before: {{ lesson.before }}. After: {{ lesson.after }}.</span>
+	</p>
+	<p class="copy-lesson-why">{{ lesson.why | smartquotes }}</p>
+	<p class="copy-lesson-meta"><span class="copy-lesson-source">{{ lesson.source | smartquotes }}</span> · first seen in <a href="{{ lesson.firstSeenUrl }}">{{ lesson.firstSeenTitle }}</a>{% if lesson.count > 1 %} · <span class="copy-lesson-count">caught {{ lesson.count }} times</span>{% endif %}</p>
+</div>
+{%- endfor %}
+{%- endfor %}
+{%- else %}
+<p>Nothing caught yet.</p>
+{%- endif %}

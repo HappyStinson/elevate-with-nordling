@@ -4,6 +4,16 @@ description: change me
 date: 2013-04-06
 tags:
   - C++
+aiFeedback:
+  reviewed: 2026-11-15
+  model: "Claude Opus 5"
+  changes:
+    - rule: american-english-spelling
+      category: spelling
+      before: 'my favourite dog breed'
+      after: 'my favorite dog breed'
+      why: 'This site writes American English throughout — favorite, realize, organize, behavior. "Favourite" is the British form.'
+      source: 'Merriam-Webster — favorite, with "favourite" listed as the British variant'
 ---
 
 I share my Excitement for the (at the time) newest C++ standard.
@@ -19,7 +29,7 @@ There were two articles in particular that caught my interest. One about the bui
 
 Enjoy the spring sun. {% emoji "❤️", "red heart" %}
 
-Perhaps I'll end all my posts with a cute picture? Here's a pug, my favourite dog breed.
+Perhaps I'll end all my posts with a cute picture? Here's a pug, my favorite dog breed.
 
 ![Black pug with tongue out surrounded by green grass](./pug.jpeg)
 

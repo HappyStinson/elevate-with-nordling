@@ -1,0 +1,36 @@
+{%- if aiFeedback %}
+<style>{% include "css/message-box.css" %}</style>
+<style>{% include "css/copy-feedback.css" %}</style>
+<aside class="message-box ai-feedback" aria-labelledby="ai-feedback-title">
+	<h2 id="ai-feedback-title">AI copy feedback</h2>
+
+	{#- The nickname is named with its model on the same line, so nobody can read
+	    "Penny Red" as a colleague of flesh and blood. `aiFeedback.model` is the model that
+	    reviewed *this* post, not whatever the site collaborates with today. -#}
+	<p>Copyedited with {{ metadata.collaborator.name }} — my {{ metadata.collaborator.roles.copy }}, which is {{ aiFeedback.model }} — on <time datetime="{{ aiFeedback.reviewed | htmlDateString }}">{{ aiFeedback.reviewed | readableDate }}</time>. Each change names the rule behind it, so you can check it yourself rather than taking an AI’s word for it.</p>
+
+	<ol class="ai-feedback-list">
+		{%- for change in aiFeedback.changes %}
+		<li>
+			<details>
+				{#- The diff carries its meaning in bold and strikethrough, and <del>/<ins> are
+				    not announced by NVDA or VoiceOver, so read aloud the marked-up version is
+				    the before and after run together into one unintelligible string. Hide the
+				    visual form and state the change in words instead.
+
+				    No `smartquotes` on these two: some corrections are *about* a quote mark,
+				    and curling them here would announce a before that never existed. -#}
+				<summary class="diff">
+					<span aria-hidden="true">{{ change.before | inlineDiff(change.after) | safe }}</span>
+					<span class="visually-hidden">Before: {{ change.before }}. After: {{ change.after }}.</span>
+				</summary>
+				<p>{{ change.why | smartquotes }}</p>
+				<p class="ai-feedback-source">{{ change.source | smartquotes }}</p>
+			</details>
+		</li>
+		{%- endfor %}
+	</ol>
+
+	<p class="ai-feedback-more"><a href="/copy-feedback/">Every correction across the site</a></p>
+</aside>
+{%- endif %}
