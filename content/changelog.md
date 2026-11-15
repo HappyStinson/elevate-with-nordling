@@ -9,7 +9,17 @@ I thought about using Semantic Versioning but since I'm the sole maintainer I'd 
 
 Inspired by [Robb Knight](https://rknight.me/log/).
 
-## 2026-11-08
+## 2026-11-15
+
+- Added AI copy review, so drafts get a language pass before publishing
+  - Reviewed posts carry a note on what changed and why
+  - New [copy feedback](/copy-feedback/) index of each kind of mistake, with one example apiece
+- Named my AI collaborator Penny Red, with the story behind the name on [about](/about/)
+- Curly quotes and apostrophes everywhere, applied when the page is built
+- Replaced the placeholder descriptions on the imported happy kodar posts
+- Retired the long-lived `develop` branch in favor of short-lived branches off `main`
+
+### 2026-11-08
 
 - Refactored and updated the site using changes from the upstream Eleventy Base Blog
   - Updated Eleventy and related dependencies
@@ -40,12 +50,12 @@ Inspired by [Robb Knight](https://rknight.me/log/).
 ### 2025-05-22
 
 - Added plugins
-  - embed YouTube from "eleventy-plugin-youtube-embed"
-  - embed Instagram from "eleventy-plugin-embed-instagram"
-  - embed Spotify from "eleventy-plugin-embed-spotify"
-  - accessible emoji from "eleventy-plugin-emoji"
-  - reader bar from "eleventy-plugin-reader-bar"
-  - time to read from "eleventy-plugin-time-to-read"
+  - embed YouTube from `eleventy-plugin-youtube-embed`
+  - embed Instagram from `eleventy-plugin-embed-instagram`
+  - embed Spotify from `eleventy-plugin-embed-spotify`
+  - accessible emoji from `eleventy-plugin-emoji`
+  - reader bar from `eleventy-plugin-reader-bar`
+  - time to read from `eleventy-plugin-time-to-read`
 - Added styling for embedded elements
 - Bumped Node to LTS version 22
 

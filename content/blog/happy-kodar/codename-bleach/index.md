@@ -1,6 +1,6 @@
 ---
 title: "CODENAME: BLEACH"
-description: change me
+description: "Notes from a book on cross-platform C++ and the start of a project named after Nirvana’s debut album, plus a 2026 note on my decade with Apple."
 date: 2013-04-05
 tags:
   - Book

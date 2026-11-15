@@ -1,11 +1,27 @@
 ---
-title: My '24 for 24' Goals for 2024 Inspired by Gretchen Rubin
-description: "Explore my '24 for 24' list of goals for 2024, focusing on personal development and creativity."
+title: My “24 for 24” Goals for 2024 Inspired by Gretchen Rubin
+description: "Explore my “24 for 24” list of goals for 2024, focusing on personal development and creativity."
 date: 2024-01-01
 tags:
   - Personal Development
   - Happier Trifecta
   - Nordling.xyz
+aiFeedback:
+  reviewed: 2026-11-15
+  model: "Claude Opus 5"
+  changes:
+    - rule: curly-quotes-in-front-matter
+      category: style
+      before: "My '24 for 24' Goals"
+      after: 'My “24 for 24” Goals'
+      why: 'Front matter never passes through markdown, so the build cannot curl these for you — the straight quotes reached the page title, the feed and every nav link. A name set off in quotes also takes double quotation marks; single ones are for a quote inside a quote.'
+      source: "Chicago Manual of Style — double quotation marks for a quoted term, single only when nested"
+    - rule: matched-quotation-mark-pair
+      category: punctuation
+      before: 'theme is "Communication.”'
+      after: 'theme is "Communication."'
+      why: 'The pair opened with a straight quote and closed with a curly one, so the page showed one of each. Written as a matching pair, the build renders both curly.'
+      source: "Chicago Manual of Style — quotation marks come in matched pairs"
 ---
 
 ## Introduction
@@ -19,7 +35,7 @@ This year's trifecta is:
 
 ## Rasmus Trifecta for 2024
 
-My one-word theme is "Communication.”
+My one-word theme is "Communication."
 
 1. Get a motorcycle license
 2. Get a Tattoo

@@ -1,12 +1,22 @@
 ---
-title: My '25 for 25' Goals Inspired by the Happier Trifecta
-description: "Explore my '25 for 25' list of goals for 2025, focusing on personal growth and new experiences."
+title: My “25 for 25” Goals Inspired by the Happier Trifecta
+description: "Explore my “25 for 25” list of goals for 2025, focusing on personal growth and new experiences."
 date: 2025-02-23
 tags:
   - Personal Development
   - Happier Trifecta
   - Longevity
   - Nordling.xyz
+aiFeedback:
+  reviewed: 2026-11-15
+  model: "Claude Opus 5"
+  changes:
+    - rule: curly-quotes-in-front-matter
+      category: style
+      before: "My '25 for 25' Goals"
+      after: 'My “25 for 25” Goals'
+      why: 'Front matter never passes through markdown, so the build cannot curl these for you — the straight quotes reached the page title, the feed and every nav link. A name set off in quotes also takes double quotation marks; single ones are for a quote inside a quote.'
+      source: "Chicago Manual of Style — double quotation marks for a quoted term, single only when nested"
 ---
 
 ## Introduction

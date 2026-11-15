@@ -1,6 +1,6 @@
 ---
 title: Starting a Development Blog
-description: hello layout
+description: "The first post on this blog and the plan for Dansk Mask reLoaded in C++, with a 2024 look back at why the project never took off."
 date: 2012-03-07
 tags:
   - Game Development

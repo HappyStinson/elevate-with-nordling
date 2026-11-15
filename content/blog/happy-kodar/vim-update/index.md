@@ -1,12 +1,22 @@
 ---
 title: Vim Update
-description: change me
+description: "Trying the YouCompleteMe plugin for Vim, falling for CrunchBang Linux, and the song that was stuck in my head that Saturday."
 date: 2013-04-20
 tags:
   - Linux
   - Music
   - Student
   - Vim
+aiFeedback:
+  reviewed: 2026-11-15
+  model: "Claude Opus 5"
+  changes:
+    - rule: american-english-spelling
+      category: spelling
+      before: 'a particular favourite distribution'
+      after: 'a particular favorite distribution'
+      why: 'This site writes American English throughout — favorite, realize, organize, behavior. "Favourite" is the British form.'
+      source: 'Merriam-Webster — favorite, with "favourite" listed as the British variant'
 ---
 
 I discuss a plugin for the Vim text editor, the latest Linux distribution I fell in love with, and a new song I discovered.
@@ -38,6 +48,6 @@ Now I must be on my way, so the last thing I must mention is that I fell a littl
 
 ### 2025 Update
 
-The geek in me still have a secret crush on the Linux eco-system but I don't have a particular favourite distribution or use it that often these days.
+The geek in me still have a secret crush on the Linux eco-system but I don't have a particular favorite distribution or use it that often these days.
 
 / Rasmus

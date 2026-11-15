@@ -1,0 +1,106 @@
+/* AI copy feedback: the per-post note and the /copy-feedback/ lesson index.
+   Builds on .message-box (css/message-box.css) so the note reads as the same kind
+   of aside as the happy kodar provenance box, just a different subject. */
+
+.ai-feedback {
+	--color-ai-feedback-accent: #5b4a8a;
+	--color-message-box: #f5f3fb;
+
+	border-left: 4px solid var(--color-ai-feedback-accent);
+	padding: 1em 0.875em 0.5em;
+}
+
+.ai-feedback h2 {
+	margin-top: 0;
+	font-size: 1.1em;
+}
+
+.ai-feedback-list {
+	margin: 0;
+	padding-left: 1.25em;
+}
+
+.ai-feedback-list > li {
+	margin-bottom: 0.5em;
+}
+
+.ai-feedback summary {
+	cursor: pointer;
+}
+
+.ai-feedback details p {
+	margin: 0.4em 0 0;
+}
+
+.ai-feedback-source,
+.ai-feedback-more {
+	font-size: 0.85em;
+}
+
+.ai-feedback-source {
+	font-style: italic;
+}
+
+/* Inline diff: one line, with only the changed part marked. Removed text is struck
+   and dimmed; added text is bold in the accent color. One signal each is enough. */
+.diff del {
+	text-decoration-line: line-through;
+	opacity: 0.6;
+}
+
+.diff ins {
+	text-decoration: none;
+	font-weight: 700;
+	color: var(--color-ai-feedback-accent, var(--color-lesson-accent));
+}
+
+/* A replacement sits straight after what it replaces, so without this the two run
+   together and read as one word: "fromfor". */
+.diff del + ins,
+.diff ins + del {
+	margin-left: 0.3em;
+}
+
+/* Lesson index */
+.copy-lesson {
+	border-top: 1px solid var(--color-gray-20);
+	padding: 0.875em 0;
+}
+
+.copy-lesson-change {
+	font-family: var(--font-family-monospace);
+	font-size: 0.9em;
+	line-height: 1.6;
+}
+
+.copy-lesson-why {
+	margin: 0.5em 0 0.25em;
+}
+
+.copy-lesson-meta {
+	font-size: 0.85em;
+	margin: 0.25em 0 0;
+}
+
+.copy-lesson-source {
+	font-style: italic;
+}
+
+.copy-lesson-count {
+	white-space: nowrap;
+}
+
+:root {
+	--color-lesson-accent: #5b4a8a;
+}
+
+@media (prefers-color-scheme: dark) {
+	.ai-feedback {
+		--color-ai-feedback-accent: #b9a7e8;
+		--color-message-box: #1d1b2e;
+	}
+
+	:root {
+		--color-lesson-accent: #b9a7e8;
+	}
+}

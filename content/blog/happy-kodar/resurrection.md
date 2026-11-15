@@ -1,6 +1,6 @@
 ---
 title: The Resurrection
-description: change me
+description: "A short return to the blog exactly one year after the last post, with a game idea about horoscopes that never left the notebook."
 date: 2013-03-07
 tags:
   - Game Development

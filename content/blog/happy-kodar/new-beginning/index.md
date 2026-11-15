@@ -1,6 +1,6 @@
 ---
 title: A New Beginning
-description: change me
+description: "Late-night thoughts about turning this blog toward Linux and open source, and the two new names I was considering."
 date: 2013-04-03
 tags:
   - Linux

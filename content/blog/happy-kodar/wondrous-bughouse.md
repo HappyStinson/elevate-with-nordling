@@ -1,6 +1,6 @@
 ---
 title: Wondrous Bughouse
-description: change me
+description: "A late-night post about the new Youth Lagoon album, an old game idea about floating on a cloud, and the itch to start coding again."
 date: 2013-03-07
 tags:
   - Game Development

@@ -6,7 +6,7 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
-<h1><span eleventy:id-ignore>Hello, I'm Rasmus Nordling.</span></h1>
+<h1><span eleventy:id-ignore>Hello, I’m Rasmus Nordling.</span></h1>
 
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}

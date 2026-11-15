@@ -18,6 +18,8 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
+{% include "ai-feedback.njk" %}
+
 {% readerBar %}
 
 {%- if collections.posts %}

@@ -1,6 +1,6 @@
 ---
 title: "Announcing Flag Frenzy: A New Unity Game"
-description: change me
+description: "Signing up for One Game a Month after a rejection, and the plan for Flag Frenzy, a Unity button masher about hoisting flags for love."
 date: 2014-07-16
 tags:
   - Game Development

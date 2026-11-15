@@ -6,6 +6,16 @@ tags:
  - Eleventy
  - Web Development
 # permalink: /blog/future/
+aiFeedback:
+  reviewed: 2026-11-15
+  model: "Claude Opus 5"
+  changes:
+    - rule: american-english-spelling
+      category: spelling
+      before: 'some of my favourite websites'
+      after: 'some of my favorite websites'
+      why: 'This site writes American English throughout — favorite, realize, organize, behavior. "Favourite" is the British form.'
+      source: 'Merriam-Webster — favorite, with "favourite" listed as the British variant'
 ---
 hello from sub folder.
 I changed static site generator (again) in August 2024 and feel there has been a slow progress since. I started this project many years ago to grow both as a writer and web developer. I believe *content comes first* and tech second but there are certain technical improvements I feel would enhance the user experience. There is always a trade-off with the limited time we have to get things done in a day. This is a hobby project that I maintain in my spare time and expect it to [evolve during several years](https://blog.sharons.site/why-it-took-me-years-to-build-my-own-site/).
@@ -99,7 +109,7 @@ I love getting things for free and using a [starter project](https://www.11ty.de
 
 The inspiration for writing this came from [Features of my personal website](https://fuzzylogic.me/posts/features-of-my-personal-site/) written by Laurence Hughes. I'm grateful he wrote that.
 
-It's very likely that someone before you have already thought what you are thinking and made what you are looking for. My strategy is to combine the best ideas from different sources and put my own take on it. Here are some of my favourite websites that I drew inspiration from when brainstorming my features lists.
+It's very likely that someone before you have already thought what you are thinking and made what you are looking for. My strategy is to combine the best ideas from different sources and put my own take on it. Here are some of my favorite websites that I drew inspiration from when brainstorming my features lists.
 
 [Balance](https://balanceapp.com/meditation-experts/ofosu-jones-quartey), [My favorite Saturday walk on Södermalm](https://www.visitstockholm.com/see-do/attractions/my-favorite-saturday-walk-on-sodermalm/), [Theodorus Clarence](https://theodorusclarence.com/), [Florian van der Galiën uses](https://flori.dev/uses/), [Alex Hyett's Book Notes](https://www.alexhyett.com/book-notes/), [Ryan Mulligan](https://ryanmulligan.dev/), [About Rach Smith](https://rachsmith.com/about/), [Specialized 50th Anniversary](https://www.specialized.com/gb/en/specialized-50-anniversary), and [Andrew Yates](https://ay8s.com/).
 
