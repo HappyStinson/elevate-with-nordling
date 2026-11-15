@@ -12,15 +12,11 @@ Inspired by [Robb Knight](https://rknight.me/log/).
 ## 2026-11-15
 
 - Added AI copy review, so drafts get a language pass before publishing
-  - Mechanical corrections are applied directly; anything that would change my voice I decide on myself
-  - Every correction has to name a source, and the build rejects one that doesn't
-  - Posts that were reviewed carry a note listing what changed and why
-- Added a [copy feedback](/copy-feedback/) index of each kind of mistake, with one example apiece
-- Curly quotes and apostrophes everywhere, applied when the page is built rather than typed
-  - Plugin names in this changelog are now code rather than quoted, so they stay copyable
-  - Fixed the quotes the build can't reach: two post titles, and the inch marks on the about page
-- Named my AI collaborator Penny Red, credited on every page she worked on, with the story behind the name on [about](/about/)
-- Made the correction diffs readable to a screen reader, which saw only the unmarked text before
+  - Reviewed posts carry a note on what changed and why
+  - New [copy feedback](/copy-feedback/) index of each kind of mistake, with one example apiece
+- Named my AI collaborator Penny Red, with the story behind the name on [about](/about/)
+- Curly quotes and apostrophes everywhere, applied when the page is built
+- Replaced the placeholder descriptions on the imported happy kodar posts
 - Retired the long-lived `develop` branch in favor of short-lived branches off `main`
 
 ### 2026-11-08
