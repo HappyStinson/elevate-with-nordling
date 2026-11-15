@@ -1,6 +1,6 @@
 ---
 title: Nordic Game Jam 2016 Post-mortem
-description: change me
+description: "A post-mortem from Nordic Game Jam 2016 in Copenhagen and Champions Leek, our Chromecast party racer about leeks."
 date: 2016-04-20
 tags:
   - Game Development

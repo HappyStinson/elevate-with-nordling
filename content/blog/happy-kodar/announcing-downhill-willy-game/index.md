@@ -1,6 +1,6 @@
 ---
 title: "Recap of BOSSJam: Developing a LÖVE Game in 48 Hours"
-description: change me
+description: "A 48-hour BOSSJam recap and how Downhill Willy, a game about a whale skiing downhill, came together in Lua and LÖVE."
 date: 2014-07-15
 tags:
   - Game Development

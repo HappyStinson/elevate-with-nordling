@@ -1,6 +1,6 @@
 ---
 title: "Programming Gems & LOST Memories: My Portfolio Journey"
-description: change me
+description: "Digging an old portfolio folder out of a dusty partition, and the chronological LOST rewatch that landed me in the local newspaper."
 date: 2013-05-07
 tags:
   - Music

@@ -1,6 +1,6 @@
 ---
 title: "Flag Frenzy Development Update: Improvements and Future Plans"
-description: change me
+description: "What changed in Flag Frenzy v0.4, from a game state switch and hold-to-hoist flags to a countdown, plus a few questions for beta testers."
 date: 2014-07-24
 tags:
   - Game Development

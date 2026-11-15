@@ -1,6 +1,6 @@
 ---
 title: Vim Update
-description: change me
+description: "Trying the YouCompleteMe plugin for Vim, falling for CrunchBang Linux, and the song that was stuck in my head that Saturday."
 date: 2013-04-20
 tags:
   - Linux

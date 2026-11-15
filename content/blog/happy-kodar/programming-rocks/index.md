@@ -1,6 +1,6 @@
 ---
 title: C++ Rocks!
-description: change me
+description: "A Saturday spent getting to know C++11 and the C++ Rocks! site, with its articles on CMake and compilers worth following up."
 date: 2013-04-06
 tags:
   - C++

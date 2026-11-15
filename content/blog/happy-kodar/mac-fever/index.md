@@ -1,6 +1,6 @@
 ---
 title: Mac-Fever.now
-description: change me
+description: "Daydreaming about a Mac and an absurdly ergonomic office, then settling for rewriting my old C++ assignments as cross-platform code."
 date: 2013-04-07
 tags:
   - C++

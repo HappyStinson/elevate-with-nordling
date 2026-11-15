@@ -1,6 +1,6 @@
 ---
 title: "Flag Frenzy Development Update: Roadmap for Success"
-description: change me
+description: "My day-by-day plan for finishing Flag Frenzy on time, with gravity on the flag, birds to dodge, and a day set aside for graphics and sound."
 date: 2014-07-21
 tags:
   - Game Development

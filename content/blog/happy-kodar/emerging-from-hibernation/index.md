@@ -1,6 +1,6 @@
 ---
 title: Emerging from Hibernation
-description: change me
+description: "Blog housekeeping, too many hours in Vim, and a first CMake toolchain file for building Windows executables on Linux."
 date: 2013-04-17
 tags:
   - CMake
